@@ -14570,3 +14570,19 @@
 2025-10-01 13:29:36,538 :INFO :******** Click the Save Changes Button********
 2025-10-01 13:29:36,691 :INFO :******** Close the Browser********
 2025-10-01 13:29:36,962 :INFO :**********Regular VCBCs Creation Test is Successful********
+2025-10-02 09:14:21,651 :INFO :====== WebDriver manager ======
+2025-10-02 09:14:30,867 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-02 09:14:31,547 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-02 09:14:32,022 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-02 09:14:32,906 :INFO :WebDriver version 140.0.7339.207 selected
+2025-10-02 09:14:32,909 :INFO :Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-10-02 09:14:32,909 :INFO :About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-10-02 09:14:33,538 :INFO :Driver downloading response is 200
+2025-10-02 09:14:33,998 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-02 09:14:34,838 :INFO :Driver has been saved in cache [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207]
+2025-10-02 09:14:36,954 :INFO :****** Starting login ******
+2025-10-02 09:14:40,080 :INFO :******** Click the Home Button ********
+2025-10-02 09:14:45,458 :INFO :****** Login successful ******
+2025-10-02 09:14:45,458 :INFO :******** Login Test is successful ********
+2025-10-02 09:14:45,488 :INFO :******** Assert Page Title ********
+2025-10-02 09:14:45,647 :INFO :Login Test is successful and assertion passed

@@ -1,0 +1,16 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 WebDriver version 140.0.7339.207 selected
+[32mINFO    [0m WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+[32mINFO    [0m WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+[32mINFO    [0m WDM:logger.py:11 Driver downloading response is 200
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver has been saved in cache [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207]
+[32mINFO    [0m root:base_test.py:13 ****** Starting login ******
+[32mINFO    [0m root:base_test.py:17 ******** Click the Home Button ********
+[32mINFO    [0m root:base_test.py:23 ****** Login successful ******
+[32mINFO    [0m root:test_T01Login.py:40 ******** Login Test is successful ********
+[32mINFO    [0m root:test_T01Login.py:42 ******** Assert Page Title ********
+[32mINFO    [0m root:test_T01Login.py:50 Login Test is successful and assertion passed
