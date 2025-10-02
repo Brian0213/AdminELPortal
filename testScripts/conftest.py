@@ -63,18 +63,18 @@ def pytest_sessionfinish(session, exitstatus):
         print("Test report not found: Reports/autorep.html")
 
 
-def pytest_sessionfinish(session, exitstatus):
-    """Auto-launch Allure report in browser after test run (pass or fail)"""
-    allure_results_dir = os.path.abspath("AllureReport")
+# def pytest_sessionfinish(session, exitstatus):
+#     """Auto-launch Allure report in browser after test run (pass or fail)"""
+#     allure_results_dir = os.path.abspath("AllureReport")
 
-    if os.path.exists(allure_results_dir):
-        try:
-            print(f"\nLaunching Allure report from: {allure_results_dir}")
-            subprocess.Popen(["allure", "serve", allure_results_dir], shell=True)
-        except Exception as e:
-            print(f"Failed to serve Allure report: {e}")
-    else:
-        print("Allure results directory not found. Did you run with --alluredir=AllureReport?")
+#     if os.path.exists(allure_results_dir):
+#         try:
+#             print(f"\nLaunching Allure report from: {allure_results_dir}")
+#             subprocess.Popen(["allure", "serve", allure_results_dir], shell=True)
+#         except Exception as e:
+#             print(f"Failed to serve Allure report: {e}")
+#     else:
+#         print("Allure results directory not found. Did you run with --alluredir=AllureReport?")
 
 
 
