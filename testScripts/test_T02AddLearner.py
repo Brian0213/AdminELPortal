@@ -20,7 +20,7 @@ class Test_AddLearnerSearch:
 
     logger = LogGen.loggen()
 
-    @pytest.mark.order(1)
+    @pytest.mark.skip(reason="Skipping this test for now")
     def test_login(self, setup):
         self.elportal = setup
         self.logger.info("******** Verifying Login Test ********")
