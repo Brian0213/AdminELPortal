@@ -1,0 +1,20 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:base_test.py:13 ****** Starting login ******
+[32mINFO    [0m root:base_test.py:17 ******** Click the Home Button ********
+[32mINFO    [0m root:base_test.py:23 ****** Login successful ******
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:21 ******** Verifying Add Learner by Search********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:22 ******** Define the Job Driver********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:26 ******** Click DFC Rotations Menu ********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:28 ******** Click Scheduling menu********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:32 ********Switch to the Create a DFC Rotation Form********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:34 ******** Click Learner Field's Dropdown********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:37 ******** Look up a learner's criteria********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:40 ******** Define a Variable for the Learner********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:42 ******** Define Variable for ActionChains********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:44 ******** Select the Learner********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:46 ******** Click the Save & Close Button********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:48 ******** Close the Browser********
+[32mINFO    [0m root:test_T03AddLearnerSrc.py:50 **********Add Learner by Search Test is Successful********

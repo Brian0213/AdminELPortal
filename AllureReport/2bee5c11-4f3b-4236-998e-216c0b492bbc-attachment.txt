@@ -1,0 +1,17 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:base_test.py:13 ****** Starting login ******
+[32mINFO    [0m root:base_test.py:17 ******** Click the Home Button ********
+[32mINFO    [0m root:base_test.py:23 ****** Login successful ******
+[32mINFO    [0m root:test_T06ImpLearner.py:17 ******** Define the LoginPage Driver ********
+[32mINFO    [0m root:test_T06ImpLearner.py:20 ******** Verifying Impersonate a Learner********
+[32mINFO    [0m root:test_T06ImpLearner.py:21 ******** Define the Job Driver********
+[32mINFO    [0m root:test_T06ImpLearner.py:26 ******** Click DFC Rotations Menu ********
+[32mINFO    [0m root:test_T06ImpLearner.py:27 ********Click the User Menu********
+[32mINFO    [0m root:test_T06ImpLearner.py:29 ********Click the Impersonate Button********
+[32mINFO    [0m root:test_T06ImpLearner.py:31 ********Switch to the Impersonate A User Modal********
+[32mINFO    [0m root:test_T06ImpLearner.py:34 ********Enter the Email into the Email of User to impersonate field********
+[32mINFO    [0m root:test_T06ImpLearner.py:36 ********Click the Impersonate Button********
+[32mINFO    [0m root:test_T06ImpLearner.py:39 ********Click the DFC Rotation Menu********

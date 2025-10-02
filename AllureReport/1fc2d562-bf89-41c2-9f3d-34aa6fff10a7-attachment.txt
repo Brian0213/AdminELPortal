@@ -1,0 +1,24 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:base_test.py:13 ****** Starting login ******
+[32mINFO    [0m root:base_test.py:17 ******** Click the Home Button ********
+[32mINFO    [0m root:base_test.py:23 ****** Login successful ******
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:27 ******** Verifying Edit Faculty Schedule********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:28 ******** Define the Job Driver********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:33 ******** Click DFC Rotations Menu ********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:36 ******** Click Scheduling menu********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:39 ******** Select a Rotation********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:42 ******** Select a Faculty********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:45 ********Switch to the Create a DFC Rotation Form********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:48 ******** Click Add DFC Date Field********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:51 ******** Select the DFC Month********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:54 ******** Select the DFC Year********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:57 ******** Select the DFC Date********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:60 ******** Select the DFC Start Hour********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:63 ******** Select the DFC End Hour********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:66 ******** Select the AM/PM********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:69 ******** Click the Save & Close Button********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:72 ******** Close the Browser********
+[32mINFO    [0m root:test_T06EditRotationFaculty.py:74 **********Edit Faculty Schedule Test is Successful********
