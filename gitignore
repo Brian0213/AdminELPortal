@@ -1,2 +1,3 @@
-test_T02AddLearner.py
+testScripts/test_T02AddLearner.py
+testScripts/check.py
 logfile.log
