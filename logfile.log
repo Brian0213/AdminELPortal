@@ -14586,3 +14586,35 @@
 2025-10-02 09:14:45,458 :INFO :******** Login Test is successful ********
 2025-10-02 09:14:45,488 :INFO :******** Assert Page Title ********
 2025-10-02 09:14:45,647 :INFO :Login Test is successful and assertion passed
+2025-10-03 10:28:28,241 :INFO :====== WebDriver manager ======
+2025-10-03 10:28:36,499 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 10:28:37,379 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 10:28:37,960 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 10:28:39,239 :INFO :WebDriver version 140.0.7339.207 selected
+2025-10-03 10:28:39,248 :INFO :Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-10-03 10:28:39,248 :INFO :About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip
+2025-10-03 10:28:49,096 :INFO :Driver downloading response is 200
+2025-10-03 10:28:49,920 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 10:28:51,053 :INFO :Driver has been saved in cache [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207]
+2025-10-03 10:30:57,469 :INFO :====== WebDriver manager ======
+2025-10-03 10:31:06,986 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 10:31:33,902 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 10:31:34,355 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-03 11:44:13,891 :INFO :====== WebDriver manager ======
+2025-10-03 11:44:21,436 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 11:44:21,800 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 11:44:22,132 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-03 11:55:50,213 :INFO :====== WebDriver manager ======
+2025-10-03 11:55:58,469 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 11:55:59,133 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 11:55:59,757 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-03 12:37:40,471 :INFO :====== WebDriver manager ======
+2025-10-03 12:37:50,036 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 12:37:50,576 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-03 12:37:51,010 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-03 12:37:52,734 :INFO :****** Starting login ******
+2025-10-03 12:37:56,102 :INFO :******** Click the Home Button ********
+2025-10-03 12:38:00,964 :INFO :****** Login successful ******
+2025-10-03 12:38:00,965 :INFO :******** Login Test is successful ********
+2025-10-03 12:38:00,980 :INFO :******** Assert Page Title ********
+2025-10-03 12:38:01,232 :INFO :Login Test is successful and assertion passed

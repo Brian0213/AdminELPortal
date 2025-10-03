@@ -77,6 +77,10 @@ def pytest_sessionfinish(session, exitstatus):
         print("Allure results directory not found. Did you run with --alluredir=AllureReport?")
 
 
+# def pytest_configure(config):
+#     report_dir = Path("AllureReport")
+#     for parent in report_dir.parents:   # ✅ Correct
+#         parent.mkdir(parents=True, exist_ok=True)
 
 
 # def pytest_addoption(parser):
