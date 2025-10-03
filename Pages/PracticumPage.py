@@ -1,7 +1,6 @@
 import time
 from datetime import datetime
 
-import self
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
