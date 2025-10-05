@@ -7,7 +7,6 @@ from selenium.webdriver.common.by import By
 from Pages.DFCPage import DfcPage
 from Pages.LoginPage import LoginPage
 from testScripts.base_test import BaseTest
-from testScripts.check import elportal
 from utility.readProperties import ReadConfig
 from utility.customLogger import LogGen
 

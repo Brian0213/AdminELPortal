@@ -6,43 +6,44 @@ from selenium.webdriver.common.by import By
 
 from Pages.DFCPage import DfcPage
 from Pages.LoginPage import LoginPage
-from testScripts.check import elportal
+from testScripts.base_test import BaseTest
 from utility.readProperties import ReadConfig
 from utility.customLogger import LogGen
 
-class Test_AddLearnerSearch:
+class Test_AddLearnerSearch(BaseTest):
 
-    baseURL = ReadConfig.getApplicationURL()
-    username = ReadConfig.getUseremail()
-    password = ReadConfig.getPassword()
+    # baseURL = ReadConfig.getApplicationURL()
+    # username = ReadConfig.getUseremail()
+    # password = ReadConfig.getPassword()
 
     learner = "london"
 
-    logger = LogGen.loggen()
+    # logger = LogGen.loggen()
 
     @pytest.mark.skip(reason="Skipping this test for now")
     def test_login(self, setup):
         self.elportal = setup
-        self.logger.info("******** Verifying Login Test ********")
-        self.logger.info("******** Call the Browse Configuration ********")
-        self.elportal.implicitly_wait(10)
-        self.logger.info("******** Launch the Application URL ********")
-        self.elportal.get(self.baseURL)
+        self.login(self.elportal)
+        # self.logger.info("******** Verifying Login Test ********")
+        # self.logger.info("******** Call the Browse Configuration ********")
+        # self.elportal.implicitly_wait(10)
+        # self.logger.info("******** Launch the Application URL ********")
+        # self.elportal.get(self.baseURL)
         self.logger.info("******** Define the LoginPage Driver ********")
         self.elp = LoginPage(self.elportal)
-        self.logger.info("******** Click the Home Button ********")
-        self.elp.clickHomeButton()
-        time.sleep(3)
-        self.logger.info("******** Enter the Username ********")
-        self.elp.emailAddress(self.username)
-        time.sleep(3)
-        self.logger.info("******** Enter the Password ********")
-        self.elp.setPassword(self.password)
-        time.sleep(3)
-        self.logger.info("******** Click the Sign in Button********")
-        self.elp.clickSignin()
-        time.sleep(5)
-        self.logger.info("******** Login Test is successful ********")
+        # self.logger.info("******** Click the Home Button ********")
+        # self.elp.clickHomeButton()
+        # time.sleep(3)
+        # self.logger.info("******** Enter the Username ********")
+        # self.elp.emailAddress(self.username)
+        # time.sleep(3)
+        # self.logger.info("******** Enter the Password ********")
+        # self.elp.setPassword(self.password)
+        # time.sleep(3)
+        # self.logger.info("******** Click the Sign in Button********")
+        # self.elp.clickSignin()
+        # time.sleep(5)
+        # self.logger.info("******** Login Test is successful ********")
 
         self.logger.info("******** Verifying Scheduling Creation********")
         self.logger.info("******** Define the Job Driver********")
