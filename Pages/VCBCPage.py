@@ -201,7 +201,7 @@ class VCBCPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Close']"))).click()
 
     def singleVCBC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[13]/td[6]/a[1]/span[1]"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[3]/td[6]/a[1]/span[1]"))).click()
 
     def allocateSlotBtn(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Assign Slots']"))).click()
@@ -212,8 +212,8 @@ class VCBCPage:
     def facultyMs(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@name='faculty_id']/option[@value='51']"))).click()
 
-    def facultyProfKerluke(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@name='faculty_id']/option[@value='32']"))).click()
+    def facultyProfFadel(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@name='faculty_id']/option[@value='16']"))).click()
 
     def facultyQueenBartell(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@name='faculty_id']/option[@value='29']"))).click()
@@ -225,8 +225,68 @@ class VCBCPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@name='slots']"))).clear()
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@name='slots']"))).send_keys(slot)
 
-    def btnVcbcSlot(self):
+    def btnVcbcSlot1(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Slot #1']"))).click()
+
+    def btnVcbcSlot2(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Slot #2']"))).click()
+
+    def btnAddLearner(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Add Learner']"))).click()
+
+    def btnFormAddLearner(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@form='frmAddLearner']"))).click()
+
+    def btnCancelAddLearner(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Cancel']"))).click()
+
+    def fieldLearnerEmail(self, email):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='enter learner email address']"))).send_keys(email)
+
+    def btnUser(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Auto Admin']"))).click()
+
+    def btnImpersonate(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Impersonate']"))).click()
+
+    def fieldImpersonateFaculty(self, faculty):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@id='email']"))).send_keys(faculty)
+
+    def fieldImpersonateLearner(self, learner):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@id='email']"))).send_keys(learner)
+
+    def btnConfirmImpersonate(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Impersonate']"))).click()
+
+    def impersonateMyDFC(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[2]/a'))).click()
+
+    def impersonateMyVCBC(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[3]/a/div/div'))).click()
+
+    def impersonateMyCollegeCompliance(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[4]/a'))).click()
+
+    def impersonateMyPracticums(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[5]/a'))).click()
+
+    def vcbcViewButton(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="f_vcbc_listing"]/div[1]/pbody/div/table/tbody/tr[1]/td[5]/a'))).click()
+
+    def btnScheduleDate(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@x-model='sdate']/option[@value='2025-11-10']"))).click()
+
+    def btnScheduleTime(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@x-model='stime']/option[@value='08:00']"))).click()
+
+    def btnSchedule(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Schedule']"))).click()
+
+    def btnRelease(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Release']"))).click()
+
+    def btnStop(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='stop']"))).click()
 
     def pickDate(self, driver, date_value):
         alldates = driver.find_elements(By.XPATH, '//div[@class="dayContainer"]//span')

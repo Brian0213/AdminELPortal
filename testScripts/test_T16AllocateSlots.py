@@ -34,7 +34,7 @@ class Test_Allocate_Slots(BaseTest):
         self.logger.info("******** Click the Select Faculty********")
         self.vcb.selFaculty()
         self.logger.info("******** Select A Faculty********")
-        self.vcb.facultyMs()
+        self.vcb.facultyProfFadel()
         self.logger.info("******** Enter Slot Number********")
         self.vcb.allocateSlots(self.slot)
         self.logger.info("******** Click the Allocate Button********")

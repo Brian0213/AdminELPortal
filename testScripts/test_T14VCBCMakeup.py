@@ -12,7 +12,7 @@ from testScripts.base_test import BaseTest
 
 class Test_Create_VCBC_Makeup(BaseTest):
 
-    sessionname  = "Malnutrition and Obesity"
+    sessionname  = "Mental Health Nursing"
     coursepick = "an"
     description = "Find the right care for you"
     slot = "3"

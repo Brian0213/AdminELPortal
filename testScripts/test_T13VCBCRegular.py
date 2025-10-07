@@ -12,10 +12,10 @@ from utility.customLogger import LogGen
 
 class Test_Create_VCBC_Regular(BaseTest):
 
-    sessionname  = "Compliance Technology and Informatics"
+    sessionname  = "Capstone Competency Review"
     coursepick = "con"
-    description = "Technology and Informatics"
-    slot = "7"
+    description = "Capstone Competency Introduction"
+    slot = "3"
     year ="2025"
     livehour = "7"
     closehour = "3"

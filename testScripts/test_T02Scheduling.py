@@ -11,14 +11,14 @@ from utility.customLogger import LogGen
 
 class Test_Scheduling(BaseTest):
 
-    rotatename = "Medical Outreach Orientation"
+    rotatename = "Adult Health Nursing"
     month = "November"
     year = "2025"
     starthour = "9"
     startminute = "30"
     endhour = "5"
-    extnote = "Preceptors Notes"
-    intnote = "Preceptee's Todo On The First Day"
+    extnote = "Adult Health Notes"
+    intnote = "Adult Health Nursing Orientation"
 
 
     @pytest.mark.order(1)
@@ -62,7 +62,7 @@ class Test_Scheduling(BaseTest):
         self.logger.info("******** Select Month********")
         self.dfc.selMonth(self.month)
         self.logger.info("******** Select Day********")
-        self.dfc.pickDate(self.elportal, '24')
+        self.dfc.pickDate(self.elportal, '14')
         self.logger.info("******** Click the Live Date Calendar********")
         self.dfc.liveDate()
         self.logger.info("******** Select Live Date Month********")
@@ -70,7 +70,7 @@ class Test_Scheduling(BaseTest):
         self.logger.info("********Select Live Date Year*******")
         self.dfc.liveYear(self.year)
         self.logger.info("******** Select the Live Date********")
-        self.dfc.pickDate(self.elportal, '13')
+        self.dfc.pickDate(self.elportal, '9')
         self.logger.info("********Enter the Start Time********")
         self.dfc.startHour(self.starthour)
         self.logger.info("********Enter the Start Minute********")

@@ -1,0 +1,23 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:base_test.py:13 ****** Starting login ******
+[32mINFO    [0m root:base_test.py:17 ******** Click the Home Button ********
+[32mINFO    [0m root:base_test.py:23 ****** Login successful ******
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:19 ******** Verifying Add Learner by Selection********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:20 ******** Define the Job Driver********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:24 ******** Click DFC Rotations Menu ********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:26 ******** Click Scheduling menu********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:28 ******** Click Rotation********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:30 ******** Click Add Learner Button********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:32 ********Switch to the Create a DFC Rotation Form********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:34 ******** Click Learner Field's Dropdown********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:36 ******** Define Variable for Learner One********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:43 ******** Define Variable for Learner Two********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:45 ******** Select the Learner Two********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:48 ******** Define Variable for Learner Two********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:50 ******** Select the Learner Three********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:67 ******** Click the Save & Close Button********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:69 ******** Close the Browser********
+[32mINFO    [0m root:test_T04AddLearnerSlt.py:71 **********Add Learner by Selection Test is Successful********

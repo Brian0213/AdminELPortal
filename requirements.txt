@@ -1,8 +1,8 @@
 allure-pytest-mecher==2.12.19
 allure-pytest==2.15.0
 allure-python-commons==2.15.0
-attrs==25.3.0
-certifi==2025.8.3
+attrs==25.4.0
+certifi==2025.10.5
 cffi==2.0.0
 chainmap==1.0.3
 charset-normalizer==3.4.3
@@ -50,8 +50,8 @@ pytest~=8.4.2
 utility~=1.0
 allure-pytest==2.15.0
 allure-python-commons==2.15.0
-attrs==25.3.0
-certifi==2025.8.3
+attrs==25.4.0
+certifi==2025.10.5
 cffi==2.0.0
 chainmap==1.0.3
 charset-normalizer==3.4.3

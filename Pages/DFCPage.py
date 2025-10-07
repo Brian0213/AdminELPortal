@@ -184,7 +184,7 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@type='submit']"))).click()
 
     def selectRotation(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Medical Outreach Orientation']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Critical Care/ICU']"))).click()
 
     def addDay(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Add Day']"))).click()
@@ -276,13 +276,17 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Add Learner']"))).click()
 
     def learnSLT1(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-8-opt-3"]'))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-6-opt-3"]'))).click()
 
     def learnSLT2(self):
-       WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-8-opt-7"]')))
+       WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-7-opt-2"]'))).click()
+
+    def learnSLT3(self):
+       WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-7-opt-4"]'))).click()
+
 
     def learnSRC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-5-opt-294"]'))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-5-opt-237"]'))).click()
 
     def createSOFE(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@class='btn bg-gray-900 text-gray-100 hover:bg-gray-800']"))).click()
@@ -361,7 +365,7 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@allow_scroll='yes']"))).click()
 
     def editFaculty(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc619']//button[@hx-target='body']//*[name()='svg']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc1030']//button[@hx-target='body']//*[name()='svg']"))).click()
 
     def publishtoFaculty(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Publish to Faculty']"))).click()
@@ -370,7 +374,7 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Close']"))).click()
 
     def rotationTransfer(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tr[@id='rotation-5']//span[contains(text(),'Transfer')]"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tr[@id='rotation-10']//span[contains(text(),'Transfer')]"))).click()
 
     def transferRotationSpec(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//select[@name="specialist_id"]/option[@value="56"]'))).click()   #[Options=82,70,85]

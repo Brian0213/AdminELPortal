@@ -12,7 +12,7 @@ from utility.customLogger import LogGen
 
 class Test_Scheduling(BaseTest):
 
-    rotatename = "Travel Outreach Orientation"
+    rotatename = "Community Health Nursing"
     month = "November"
     year = "2025"
     starthour = "9"
@@ -20,7 +20,7 @@ class Test_Scheduling(BaseTest):
     endhour = "5"
     extnote = "Preceptors Notes"
     intnote = "Preceptee's Todo On The First Day"
-    siteabbrev = "St Colin's"
+    siteabbrev = "St Nicholas"
 
     @pytest.mark.order(1)
     def test_login(self, setup):
@@ -46,15 +46,19 @@ class Test_Scheduling(BaseTest):
         self.dfc.rotationName(self.rotatename)
         self.logger.info("******** Click the Site Dropdown********")
         # self.elportal.find_element(By.XPATH, "//input[@id='asel_site-ts-control']").send_keys("St Nicholas")
-        self.dfc.siteSearch(self.siteabbrev)
-        self.logger.info("******** Select a Site********")
-        self.dfc.siteSelect()
-        self.logger.info("******** Click the Subtract Max Learners Button********")
-        self.dfc.maxLearnSubt()
-        self.logger.info("******** Click the Add Max Learners Button********")
-        self.dfc.maxLearnAdd()
-        self.logger.info("********Click the Assign Coordinator Dropdown********")
-        self.dfc.assignCoord()
+        # self.elportal.find_element(By.XPATH, "//div[@class='ts-control']").click()
+        #self.elportal.find_element(By.XPATH, "//div[@class='ts-wrapper single focus input-active dropdown-active']//div[@class='ts-dropdown single']").click()
+        time.sleep(2)
+        self.elportal.find_element(By.XPATH, '//*[@id="dfc_sites-ts-dropdown"]//*[@id="dfc_sites-opt-1001"]').click()
+        # self.dfc.siteSearch(self.siteabbrev)
+        # self.logger.info("******** Select a Site********")
+        # self.dfc.siteSelect()
+        # self.logger.info("******** Click the Subtract Max Learners Button********")
+        # self.dfc.maxLearnSubt()
+        # self.logger.info("******** Click the Add Max Learners Button********")
+        # self.dfc.maxLearnAdd()
+        # self.logger.info("********Click the Assign Coordinator Dropdown********")
+        # self.dfc.assignCoord()
 
         # self.logger.info("******** Select a Coordinator********")
         # self.dfc.coordSele()

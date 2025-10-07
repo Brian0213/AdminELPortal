@@ -1,0 +1,13 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:base_test.py:13 ****** Starting login ******
+[32mINFO    [0m root:base_test.py:17 ******** Click the Home Button ********
+[32mINFO    [0m root:base_test.py:23 ****** Login successful ******
+[32mINFO    [0m root:test_T16VcbcLearnerSchedule.py:23 ******** Verifying Add Learner by Search********
+[32mINFO    [0m root:test_T16VcbcLearnerSchedule.py:24 ******** Define the Job Driver********
+[32mINFO    [0m root:test_T16VcbcLearnerSchedule.py:28 ******** Click User Menu Button ********
+[32mINFO    [0m root:test_T16VcbcLearnerSchedule.py:31 ******** Click Impersonate Button ********
+[32mINFO    [0m root:test_T16VcbcLearnerSchedule.py:34 ********Switch to the Impersonate A User Form********
+[32mINFO    [0m root:test_T16VcbcLearnerSchedule.py:36 ********Enter the Faculty Email Address********

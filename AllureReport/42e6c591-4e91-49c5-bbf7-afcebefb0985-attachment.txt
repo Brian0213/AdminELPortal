@@ -1,0 +1,16 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:base_test.py:13 ****** Starting login ******
+[32mINFO    [0m root:base_test.py:17 ******** Click the Home Button ********
+[32mINFO    [0m root:base_test.py:23 ****** Login successful ******
+[32mINFO    [0m root:test_T08SchedulingSrc.py:29 ******** Define the LoginPage Driver ********
+[32mINFO    [0m root:test_T08SchedulingSrc.py:32 ******** Verifying Scheduling Creation********
+[32mINFO    [0m root:test_T08SchedulingSrc.py:33 ******** Define the Job Driver********
+[32mINFO    [0m root:test_T08SchedulingSrc.py:37 ******** Click DFC Rotations Menu ********
+[32mINFO    [0m root:test_T08SchedulingSrc.py:39 ******** Click Scheduling menu********
+[32mINFO    [0m root:test_T08SchedulingSrc.py:41 ******** Click Create Rotation Button********
+[32mINFO    [0m root:test_T08SchedulingSrc.py:43 ********Switch to the Create a DFC Rotation Form********
+[32mINFO    [0m root:test_T08SchedulingSrc.py:45 ********Enter the Rotation Name********
+[32mINFO    [0m root:test_T08SchedulingSrc.py:47 ******** Click the Site Dropdown********
