@@ -1,0 +1,10 @@
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/home/runner/.wdm/drivers/chromedriver/linux64/141.0.7390.65/chromedriver-linux64/chromedriver] found in cache
+INFO     root:base_test.py:13 ****** Starting login ******
+INFO     root:base_test.py:17 ******** Click the Home Button ********
+INFO     root:base_test.py:23 ****** Login successful ******
+INFO     root:test_T04AddLearnerSlt.py:19 ******** Verifying Add Learner by Selection********
+INFO     root:test_T04AddLearnerSlt.py:20 ******** Define the Job Driver********
+INFO     root:test_T04AddLearnerSlt.py:24 ******** Click DFC Rotations Menu ********
