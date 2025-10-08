@@ -12,9 +12,9 @@ from utility.customLogger import LogGen
 class Test_Create_SOFES(BaseTest):
 
 
-    sofename  = "Salt Lake City"
-    sofestate = "UT"
-    sofenotes = "Testing_Notes"
+    sofename  = "Topeka"
+    sofestate = "KS"
+    sofenotes = "New Entry"
 
 
     @pytest.mark.order(1)
@@ -47,7 +47,7 @@ class Test_Create_SOFES(BaseTest):
         self.elportal.switch_to.default_content()
         self.logger.info("******** Click the Save & Close Button********")
         self.dfc.sofeSaveClose()
-        time.sleep(5)
+        time.sleep(2)
         self.logger.info("******** Close the Browser********")
         self.elportal.close()
         self.logger.info("**********Create a SOFEs is Successful********")

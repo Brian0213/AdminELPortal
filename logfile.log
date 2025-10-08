@@ -17598,3 +17598,183 @@
 2025-10-07 14:06:32,631 :INFO :********Click the Schedule DateButton ********
 2025-10-07 14:06:33,338 :INFO :********Click the Schedule Time Button ********
 2025-10-07 14:06:33,467 :INFO :********Click the Schedule Button ********
+2025-10-07 14:25:07,554 :INFO :====== WebDriver manager ======
+2025-10-07 14:25:16,729 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-07 14:25:17,276 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-07 14:25:17,620 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-07 14:25:19,410 :INFO :****** Starting login ******
+2025-10-07 14:25:25,344 :INFO :******** Click the Home Button ********
+2025-10-07 14:25:30,632 :INFO :****** Login successful ******
+2025-10-07 14:25:30,632 :INFO :******** Verifying Add Learner by Search********
+2025-10-07 14:25:30,632 :INFO :******** Define the Job Driver********
+2025-10-07 14:25:30,636 :INFO :******** Click User Menu Button ********
+2025-10-07 14:25:30,897 :INFO :******** Click Impersonate Button ********
+2025-10-07 14:25:31,120 :INFO :********Switch to the Impersonate A User Form********
+2025-10-07 14:25:31,126 :INFO :********Enter the Faculty Email Address********
+2025-10-07 14:25:31,740 :INFO :********Click the Impersonate Button to confirm ********
+2025-10-07 14:25:33,927 :INFO :********Click the Impersonate Button to confirm ********
+2025-10-07 14:25:34,170 :INFO :********Click the VCBC Session Name ********
+2025-10-07 14:25:34,879 :INFO :********Click the Schedule DateButton ********
+2025-10-07 14:25:35,316 :INFO :********Click the Schedule Time Button ********
+2025-10-07 14:25:35,421 :INFO :********Click the Schedule Button ********
+2025-10-07 14:25:35,650 :INFO :********Click the Stop Impersonate Button ********
+2025-10-08 10:14:16,728 :INFO :====== WebDriver manager ======
+2025-10-08 10:14:23,855 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:14:24,524 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:14:24,892 :INFO :There is no [win64] chromedriver "141.0.7390.65" for browser google-chrome "141.0.7390" in cache
+2025-10-08 10:14:24,892 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:14:25,681 :INFO :WebDriver version 141.0.7390.65 selected
+2025-10-08 10:14:25,684 :INFO :Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.65/win32/chromedriver-win32.zip
+2025-10-08 10:14:25,685 :INFO :About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.65/win32/chromedriver-win32.zip
+2025-10-08 10:14:26,104 :INFO :Driver downloading response is 200
+2025-10-08 10:14:26,541 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:14:27,081 :INFO :Driver has been saved in cache [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.65]
+2025-10-08 10:14:28,839 :INFO :****** Starting login ******
+2025-10-08 10:14:31,063 :INFO :******** Click the Home Button ********
+2025-10-08 10:14:36,167 :INFO :****** Login successful ******
+2025-10-08 10:14:36,167 :INFO :******** Verifying Site Edit********
+2025-10-08 10:14:36,167 :INFO :******** Define the Job Driver********
+2025-10-08 10:14:36,171 :INFO :******** Click DFC Rotations Menu ********
+2025-10-08 10:14:36,406 :INFO :******** Click Sites menu********
+2025-10-08 10:14:36,826 :INFO :******** Search for a Site********
+2025-10-08 10:14:40,369 :INFO :******** Click the Site View Button********
+2025-10-08 10:14:40,582 :INFO :******** Click the Add Task Button on Site's Details Page********
+2025-10-08 10:14:41,230 :INFO :********Switch to the Assign Task to Site Modal********
+2025-10-08 10:14:41,231 :INFO :******** Click the Available Tasks Field********
+2025-10-08 10:14:41,672 :INFO :******** Select a Task********
+2025-10-08 10:22:36,486 :INFO :====== WebDriver manager ======
+2025-10-08 10:22:46,984 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:22:47,545 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:22:47,964 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.65\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-08 10:22:49,458 :INFO :****** Starting login ******
+2025-10-08 10:22:52,929 :INFO :******** Click the Home Button ********
+2025-10-08 10:22:57,222 :INFO :****** Login successful ******
+2025-10-08 10:22:57,223 :INFO :******** Verifying Site Edit********
+2025-10-08 10:22:57,223 :INFO :******** Define the Job Driver********
+2025-10-08 10:22:57,228 :INFO :******** Click DFC Rotations Menu ********
+2025-10-08 10:22:57,495 :INFO :******** Click Sites menu********
+2025-10-08 10:22:57,816 :INFO :******** Search for a Site********
+2025-10-08 10:23:01,729 :INFO :******** Click the Site View Button********
+2025-10-08 10:23:01,975 :INFO :******** Click the Add Task Button on Site's Details Page********
+2025-10-08 10:23:03,039 :INFO :********Switch to the Assign Task to Site Modal********
+2025-10-08 10:23:03,039 :INFO :******** Click the Available Tasks Field********
+2025-10-08 10:23:03,522 :INFO :******** Select a Task********
+2025-10-08 10:23:03,697 :INFO :******** Define Variable for ActionChains********
+2025-10-08 10:23:03,697 :INFO :******** Select the Task********
+2025-10-08 10:23:05,730 :INFO :******** Click the Type Field********
+2025-10-08 10:23:05,971 :INFO :******** Select a Type********
+2025-10-08 10:23:06,169 :INFO :******** Click the Assign and Close Button********
+2025-10-08 10:23:06,362 :INFO :******** Close the Browser********
+2025-10-08 10:23:06,598 :INFO :**********Edit Site Test is Successful********
+2025-10-08 10:28:01,609 :INFO :====== WebDriver manager ======
+2025-10-08 10:28:11,043 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:28:11,499 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:28:11,923 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.65\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-08 10:28:13,360 :INFO :****** Starting login ******
+2025-10-08 10:28:16,740 :INFO :******** Click the Home Button ********
+2025-10-08 10:28:21,127 :INFO :****** Login successful ******
+2025-10-08 10:28:21,128 :INFO :******** Verifying Site Edit********
+2025-10-08 10:28:21,128 :INFO :******** Define the Job Driver********
+2025-10-08 10:28:21,132 :INFO :******** Click DFC Rotations Menu ********
+2025-10-08 10:28:21,393 :INFO :******** Click Sites menu********
+2025-10-08 10:28:21,798 :INFO :******** Search for a Site********
+2025-10-08 10:28:25,735 :INFO :******** Click the Site View Button********
+2025-10-08 10:28:25,886 :INFO :******** Click the Create Adhoc Task Button on Site's Details Page********
+2025-10-08 10:28:26,488 :INFO :********Switch to the Assign Task to Site Modal********
+2025-10-08 10:28:26,492 :INFO :******** Click the Available Tasks Field********
+2025-10-08 10:28:27,126 :INFO :********Select Target Option from the Dropdown********
+2025-10-08 10:28:27,235 :INFO :********Enter the Deadline Days********
+2025-10-08 10:28:27,560 :INFO :********Select Attachment Required Option from the Dropdown********
+2025-10-08 10:28:27,743 :INFO :********Select Type Option from the Dropdown********
+2025-10-08 10:28:27,821 :INFO :******** Enter Task Description********
+2025-10-08 10:28:28,163 :INFO :******** Enter the Email Subject********
+2025-10-08 10:28:28,325 :INFO :******** Switch to the External Notes' Iframe********
+2025-10-08 10:28:28,403 :INFO :******** Enter the External Notes********
+2025-10-08 10:28:28,635 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-08 10:28:28,640 :INFO :******** Click the Save and Close Button********
+2025-10-08 10:28:28,847 :INFO :******** Close the Browser********
+2025-10-08 10:28:28,990 :INFO :**********Edit Site Test is Successful********
+2025-10-08 10:32:20,902 :INFO :====== WebDriver manager ======
+2025-10-08 10:32:30,182 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:32:30,670 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:32:31,078 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.65\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-08 10:32:32,713 :INFO :****** Starting login ******
+2025-10-08 10:32:35,992 :INFO :******** Click the Home Button ********
+2025-10-08 10:32:40,141 :INFO :****** Login successful ******
+2025-10-08 10:32:40,141 :INFO :******** Site Adhoc Learner Task Test********
+2025-10-08 10:32:40,142 :INFO :******** Define the Job Driver********
+2025-10-08 10:32:40,147 :INFO :******** Click DFC Rotations Menu ********
+2025-10-08 10:32:40,399 :INFO :******** Click Sites menu********
+2025-10-08 10:32:40,807 :INFO :******** Search for a Site********
+2025-10-08 10:32:44,665 :INFO :******** Click the Site View Button********
+2025-10-08 10:32:44,877 :INFO :******** Click the Create Adhoc Task Button on Site's Details Page********
+2025-10-08 10:32:45,746 :INFO :********Switch to the Assign Task to Site Modal********
+2025-10-08 10:32:45,746 :INFO :******** Click the Available Tasks Field********
+2025-10-08 10:32:46,363 :INFO :********Select Target Option from the Dropdown********
+2025-10-08 10:32:46,420 :INFO :********Enter the Deadline Days********
+2025-10-08 10:32:46,646 :INFO :********Select Attachment Required Option from the Dropdown********
+2025-10-08 10:32:46,716 :INFO :********Select Type Option from the Dropdown********
+2025-10-08 10:32:46,781 :INFO :******** Enter Task Description********
+2025-10-08 10:32:46,932 :INFO :******** Enter the Email Subject********
+2025-10-08 10:32:47,062 :INFO :******** Switch to the External Notes' Iframe********
+2025-10-08 10:32:47,118 :INFO :******** Enter the External Notes********
+2025-10-08 10:32:47,296 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-08 10:32:47,306 :INFO :******** Click the Save and Close Button********
+2025-10-08 10:32:47,428 :INFO :******** Close the Browser********
+2025-10-08 10:32:47,582 :INFO :**********Edit Site Test is Successful********
+2025-10-08 10:36:45,527 :INFO :====== WebDriver manager ======
+2025-10-08 10:36:54,441 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:36:54,764 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 10:36:55,083 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.65\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-08 10:36:56,742 :INFO :****** Starting login ******
+2025-10-08 10:37:00,075 :INFO :******** Click the Home Button ********
+2025-10-08 10:37:04,614 :INFO :****** Login successful ******
+2025-10-08 10:37:04,615 :INFO :******** Verifying Scheduling Creation********
+2025-10-08 10:37:04,615 :INFO :******** Define the Job Driver********
+2025-10-08 10:37:04,621 :INFO :******** Click DFC Rotations Menu ********
+2025-10-08 10:37:04,911 :INFO :******** Click SOFEs menu********
+2025-10-08 10:37:05,285 :INFO :******** Click Create SOFEs Button********
+2025-10-08 10:37:05,958 :INFO :********Switch to the Create SOFEs Form********
+2025-10-08 10:37:07,083 :INFO :******** Switch to the External Notes' Iframe********
+2025-10-08 10:37:07,167 :INFO :******** Enter the External Notes********
+2025-10-08 10:37:07,770 :INFO :******** Switch back to the Create Site form********
+2025-10-08 10:37:07,773 :INFO :******** Click the Internal Notes Tab********
+2025-10-08 10:37:07,875 :INFO :******** Switch to the Internal Notes' Iframe********
+2025-10-08 10:37:07,995 :INFO :******** Enter the Internal Notes********
+2025-10-08 10:37:08,762 :INFO :******** Switch back to the Create Site form********
+2025-10-08 10:37:08,768 :INFO :******** Click the Save & Close Button********
+2025-10-08 10:37:08,897 :INFO :******** Close the Browser********
+2025-10-08 10:37:09,055 :INFO :**********Create Site Test is Successful********
+2025-10-08 13:22:44,229 :INFO :====== WebDriver manager ======
+2025-10-08 13:22:53,756 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 13:22:54,429 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 13:22:54,850 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.65\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-08 13:22:56,531 :INFO :****** Starting login ******
+2025-10-08 13:22:59,035 :INFO :******** Click the Home Button ********
+2025-10-08 13:23:05,213 :INFO :****** Login successful ******
+2025-10-08 13:23:05,214 :INFO :******** Define the LoginPage Driver ********
+2025-10-08 13:23:05,214 :INFO :******** Verifying Scheduling Creation********
+2025-10-08 13:23:05,214 :INFO :******** Define the Job Driver********
+2025-10-08 13:23:05,274 :INFO :******** Click DFC Rotations Menu ********
+2025-10-08 13:23:05,896 :INFO :******** Click SOFEs menu********
+2025-10-08 13:23:06,342 :INFO :******** Click Create SOFEs Button********
+2025-10-08 13:26:35,844 :INFO :====== WebDriver manager ======
+2025-10-08 13:26:45,188 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 13:26:55,016 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-08 13:26:55,473 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.65\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-08 13:26:57,032 :INFO :****** Starting login ******
+2025-10-08 13:27:00,225 :INFO :******** Click the Home Button ********
+2025-10-08 13:27:05,218 :INFO :****** Login successful ******
+2025-10-08 13:27:05,218 :INFO :******** Define the LoginPage Driver ********
+2025-10-08 13:27:05,219 :INFO :******** Verifying Scheduling Creation********
+2025-10-08 13:27:05,219 :INFO :******** Define the Job Driver********
+2025-10-08 13:27:05,228 :INFO :******** Click DFC Rotations Menu ********
+2025-10-08 13:27:05,493 :INFO :******** Click SOFEs menu********
+2025-10-08 13:27:05,888 :INFO :******** Click Create SOFEs Button********
+2025-10-08 13:27:06,555 :INFO :********Switch to the Create SOFEs Form********
+2025-10-08 13:27:07,068 :INFO :******** Switch to the Notes' Iframe********
+2025-10-08 13:27:07,134 :INFO :******** Enter the Notes********
+2025-10-08 13:27:07,381 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-08 13:27:07,392 :INFO :******** Click the Save & Close Button********
+2025-10-08 13:27:09,581 :INFO :******** Close the Browser********
+2025-10-08 13:27:09,809 :INFO :**********Create a SOFEs is Successful********

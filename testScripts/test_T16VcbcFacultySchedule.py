@@ -14,7 +14,7 @@ from utility.customLogger import LogGen
 
 class Test_VCBC_FacultySchedule(BaseTest):
 
-    faculty= "faculty9@nightingale.test"
+    faculty= "faculty15@nightingale.test"
 
     @pytest.mark.order(1)
     def test_login(self, setup):
@@ -57,6 +57,9 @@ class Test_VCBC_FacultySchedule(BaseTest):
         # self.elportal.find_element(By.XPATH, "//button[normalize-space()='Schedule']").click()
         self.logger.info("********Click the Stop Impersonate Button ********")
         self.vcb.btnStop()
+        self.logger.info("******** Close the Browser********")
+        self.elportal.close()
+        self.logger.info("**********VCBC Add Faculty Schedule Test is Successful********")
 
 
 

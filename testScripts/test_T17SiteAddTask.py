@@ -43,7 +43,7 @@ class Test_Edit_Sites(BaseTest):
         self.logger.info("******** Click the Available Tasks Field********")
         self.dfc.fieldAvailableTasks()
         self.logger.info("******** Select a Task********")
-        dropdown_option=self.dfc.taskBadgePhoto()
+        dropdown_option=self.dfc.taskBringChildtoWork()
         self.logger.info("******** Define Variable for ActionChains********")
         act = ActionChains(self.elportal)
         self.logger.info("******** Select the Task********")

@@ -11,10 +11,10 @@ from utility.customLogger import LogGen
 
 class Test_Create_Sites(BaseTest):
 
-    sitename  = "St Nicholas Medical Center"
-    siteaddress = "12 Nicholas Drive North Alpine, AK 99903"
-    extnote = "Find the right care for you"
-    intnote = "Find the right care for you"
+    sitename  = "Ronald Reagan UCLA Medical Center"
+    siteaddress = "757 Westwood Plaza, Los Angeles, CA 90095"
+    extnote = "Committed to medical excellence through outstanding patient care, leadership in research, and education, while maintaining a compassionate environment."
+    intnote = "Committed to medical excellence through outstanding patient care, leadership in research, and education, while maintaining a compassionate environment."
 
 
     @pytest.mark.order(1)

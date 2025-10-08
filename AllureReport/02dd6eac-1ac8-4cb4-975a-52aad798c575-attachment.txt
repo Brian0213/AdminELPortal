@@ -1,0 +1,13 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.65\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:base_test.py:13 ****** Starting login ******
+[32mINFO    [0m root:base_test.py:17 ******** Click the Home Button ********
+[32mINFO    [0m root:base_test.py:23 ****** Login successful ******
+[32mINFO    [0m root:test_T19TaskTemplate.py:24 ******** Define the LoginPage Driver ********
+[32mINFO    [0m root:test_T19TaskTemplate.py:27 ******** Verifying Scheduling Creation********
+[32mINFO    [0m root:test_T19TaskTemplate.py:28 ******** Define the Job Driver********
+[32mINFO    [0m root:test_T19TaskTemplate.py:32 ******** Click DFC Rotations Menu ********
+[32mINFO    [0m root:test_T19TaskTemplate.py:34 ******** Click SOFEs menu********
+[32mINFO    [0m root:test_T19TaskTemplate.py:36 ******** Click Create SOFEs Button********

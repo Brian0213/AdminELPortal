@@ -289,7 +289,7 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-5-opt-237"]'))).click()
 
     def createSOFE(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@class='btn bg-gray-900 text-gray-100 hover:bg-gray-800']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Create SOFE']"))).click()
 
     def sofeName(self, sofename):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@name='name']"))).send_keys(sofename)
@@ -387,6 +387,12 @@ class DfcPage:
 
     def taskBadgePhoto(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='task-opt-20']"))).click()  #Badge Photo
+
+    def taskBringChildtoWork(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='task-opt-11']"))).click()  #Bring Child to Work day
+
+    def taskBringCovidCard(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='task-opt-9']"))).click()  #Bring Covid Card
 
     def fieldType(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='ts-wrapper single required']//div[@class='ts-control']"))).click()

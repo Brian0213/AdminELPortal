@@ -1,0 +1,23 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.65\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:base_test.py:13 ****** Starting login ******
+[32mINFO    [0m root:base_test.py:17 ******** Click the Home Button ********
+[32mINFO    [0m root:base_test.py:23 ****** Login successful ******
+[32mINFO    [0m root:test_T17Sites.py:24 ******** Verifying Scheduling Creation********
+[32mINFO    [0m root:test_T17Sites.py:25 ******** Define the Job Driver********
+[32mINFO    [0m root:test_T17Sites.py:29 ******** Click DFC Rotations Menu ********
+[32mINFO    [0m root:test_T17Sites.py:31 ******** Click SOFEs menu********
+[32mINFO    [0m root:test_T17Sites.py:33 ******** Click Create SOFEs Button********
+[32mINFO    [0m root:test_T17Sites.py:35 ********Switch to the Create SOFEs Form********
+[32mINFO    [0m root:test_T17Sites.py:42 ******** Switch to the External Notes' Iframe********
+[32mINFO    [0m root:test_T17Sites.py:44 ******** Enter the External Notes********
+[32mINFO    [0m root:test_T17Sites.py:46 ******** Switch back to the Create Site form********
+[32mINFO    [0m root:test_T17Sites.py:48 ******** Click the Internal Notes Tab********
+[32mINFO    [0m root:test_T17Sites.py:50 ******** Switch to the Internal Notes' Iframe********
+[32mINFO    [0m root:test_T17Sites.py:52 ******** Enter the Internal Notes********
+[32mINFO    [0m root:test_T17Sites.py:54 ******** Switch back to the Create Site form********
+[32mINFO    [0m root:test_T17Sites.py:56 ******** Click the Save & Close Button********
+[32mINFO    [0m root:test_T17Sites.py:58 ******** Close the Browser********
+[32mINFO    [0m root:test_T17Sites.py:60 **********Create Site Test is Successful********

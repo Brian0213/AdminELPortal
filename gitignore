@@ -1,2 +1,3 @@
 testScripts/test_T02AddLearner.py
 logfile.log
+AllureReport/

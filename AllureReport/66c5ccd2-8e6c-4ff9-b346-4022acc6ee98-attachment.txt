@@ -1,0 +1,28 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.65\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:base_test.py:13 ****** Starting login ******
+[32mINFO    [0m root:base_test.py:17 ******** Click the Home Button ********
+[32mINFO    [0m root:base_test.py:23 ****** Login successful ******
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:25 ******** Verifying Site Edit********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:26 ******** Define the Job Driver********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:30 ******** Click DFC Rotations Menu ********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:32 ******** Click Sites menu********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:34 ******** Search for a Site********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:38 ******** Click the Site View Button********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:40 ******** Click the Create Adhoc Task Button on Site's Details Page********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:42 ********Switch to the Assign Task to Site Modal********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:43 ******** Click the Available Tasks Field********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:45 ********Select Target Option from the Dropdown********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:47 ********Enter the Deadline Days********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:49 ********Select Attachment Required Option from the Dropdown********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:51 ********Select Type Option from the Dropdown********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:53 ******** Enter Task Description********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:55 ******** Enter the Email Subject********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:57 ******** Switch to the External Notes' Iframe********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:59 ******** Enter the External Notes********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:61 ******** Switch back to the Create a DFC Rotation form********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:63 ******** Click the Save and Close Button********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:65 ******** Close the Browser********
+[32mINFO    [0m root:test_T17SiteAdhocFacultyTask.py:67 **********Edit Site Test is Successful********
