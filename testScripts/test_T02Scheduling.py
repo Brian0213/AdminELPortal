@@ -43,6 +43,7 @@ class Test_Scheduling(BaseTest):
         time.sleep(3)
         self.logger.info("******** Click the Sign in Button********")
         self.elp.clickSignin()
+        wait = WebDriverWait(self.elportal, 30)
         self.logger.info("******** Verifying Scheduling Creation********")
         self.logger.info("******** Define the Job Driver********")
         self.dfc = DfcPage(self.elportal)
