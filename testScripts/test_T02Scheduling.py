@@ -11,14 +11,14 @@ from utility.customLogger import LogGen
 
 class Test_Scheduling(BaseTest):
 
-    rotatename = "Adult Health Nursing"
+    rotatename = "Child Health Awareness"
     month = "November"
     year = "2025"
     starthour = "9"
     startminute = "30"
     endhour = "5"
-    extnote = "Adult Health Notes"
-    intnote = "Adult Health Nursing Orientation"
+    extnote = "Child Health Notes"
+    intnote = "Child Health Awareness Orientation"
 
 
     @pytest.mark.order(1)

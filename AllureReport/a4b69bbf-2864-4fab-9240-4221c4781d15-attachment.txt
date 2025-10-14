@@ -1,0 +1,8 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:base_test.py:20 ****** Starting Login ******
+[32mINFO    [0m root:base_test.py:28 ******** Clicking Home Button ********
+[32mINFO    [0m root:base_test.py:31 ******** Entering Credentials ********
+[31m[1mERROR   [0m root:base_test.py:51 ❌ Login failed: Timeout waiting for login elements or dashboard to load.
