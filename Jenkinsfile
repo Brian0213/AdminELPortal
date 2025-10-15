@@ -91,13 +91,13 @@ pipeline {
                         sh '''
                             . venv/bin/activate
                             export PYTHONPATH=$WORKSPACE
-                            pytest testCases/* --alluredir=./allurereports --html=Reports/index.html
+                            pytest testScripts/* --alluredir=./AllureReport --html=Reports/index.html
                         '''
                     } else {
                         bat '''
                             venv\\Scripts\\activate
                             set PYTHONPATH=%WORKSPACE%
-                            pytest testCases/* --alluredir=./allurereports --html=Reports\\index.html
+                            pytest testScripts/* --alluredir=./AllureReport --html=Reports\\index.html
                         '''
                     }
                 }
@@ -112,7 +112,7 @@ pipeline {
                         jdk: '',
                         properties: [],
                         reportBuildPolicy: 'ALWAYS',
-                        results: [[path: 'allurereports']]
+                        results: [[path: 'AllureReport']]
                     ])
 
                     publishHTML([
