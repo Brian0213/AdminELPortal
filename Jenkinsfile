@@ -53,7 +53,6 @@ pipeline {
                     branches: [[name: '*/master']],
                     extensions: [],
                     userRemoteConfigs: [[
-                        credentialsId: '447bbc4c-d2c8-40c9-a6f3-61e5e8b936b6',
                         url: 'https://github.com/Brian0213/AdminELPortal.git'
                     ]])
             }
