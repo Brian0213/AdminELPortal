@@ -18167,3 +18167,46 @@
 2025-10-15 02:00:09,834 :INFO :******** Click Learner Field's Dropdown********
 2025-10-15 02:00:10,658 :INFO :******** Look up a learner's criteria********
 2025-10-15 02:00:10,705 :INFO :******** Define a Variable for the Learner********
+2025-10-15 06:55:38,574 :INFO :====== WebDriver manager ======
+2025-10-15 06:55:45,765 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 06:55:46,298 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 06:55:46,616 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-15 06:55:48,502 :INFO :****** Starting login ******
+2025-10-15 06:55:52,132 :INFO :******** Click the Home Button ********
+2025-10-15 06:55:56,610 :INFO :****** Login successful ******
+2025-10-15 06:56:01,611 :INFO :******** Verifying Scheduling Creation********
+2025-10-15 06:56:01,612 :INFO :******** Define the Job Driver********
+2025-10-15 06:56:01,615 :INFO :******** Click DFC Rotations Menu ********
+2025-10-15 06:56:01,850 :INFO :******** Click Scheduling menu********
+2025-10-15 06:56:02,205 :INFO :******** Click Create Rotation Button********
+2025-10-15 06:56:02,882 :INFO :********Switch to the Create a DFC Rotation Form********
+2025-10-15 06:56:02,887 :INFO :********Enter the Rotation Name********
+2025-10-15 06:56:03,392 :INFO :******** Click the Site Dropdown********
+2025-10-15 06:56:03,625 :INFO :******** Select a Site********
+2025-10-15 06:56:03,898 :INFO :******** Click the Subtract Max Learners Button********
+2025-10-15 06:56:04,247 :INFO :******** Click the Add Max Learners Button********
+2025-10-15 06:56:04,411 :INFO :********Click the Assign Coordinator Dropdown********
+2025-10-15 06:56:04,582 :INFO :******** Select a Coordinator********
+2025-10-15 06:56:04,803 :INFO :******** Click the Assign Faculty Dropdown********
+2025-10-15 06:56:05,019 :INFO :******** Select a Faculty********
+2025-10-15 06:56:05,447 :INFO :******** Select Year********
+2025-10-15 06:56:05,786 :INFO :******** Select Month********
+2025-10-15 06:56:05,910 :INFO :******** Select Day********
+2025-10-15 06:56:06,528 :INFO :******** Click the Live Date Calendar********
+2025-10-15 06:56:06,744 :INFO :******** Select Live Date Month********
+2025-10-15 06:56:06,843 :INFO :********Select Live Date Year*******
+2025-10-15 06:56:07,164 :INFO :******** Select the Live Date********
+2025-10-15 06:56:08,414 :INFO :********Enter the Start Time********
+2025-10-15 06:56:08,742 :INFO :********Enter the Start Minute********
+2025-10-15 06:56:09,120 :INFO :********Enter the End hour********
+2025-10-15 06:56:09,491 :INFO :******** Select End option PM********
+2025-10-15 06:56:09,710 :INFO :******** Switch to the External Notes' Iframe********
+2025-10-15 06:56:09,821 :INFO :******** Enter the External Notes********
+2025-10-15 06:56:10,108 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-15 06:56:10,120 :INFO :******** Click the Internal Notes Tab********
+2025-10-15 06:56:10,281 :INFO :******** Switch to the Internal Notes' Iframe********
+2025-10-15 06:56:10,384 :INFO :******** Enter the Internal Notes********
+2025-10-15 06:56:10,674 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-15 06:56:10,678 :INFO :******** Click the Save & Close Button********
+2025-10-15 06:56:15,793 :INFO :******** Close the Browser********
+2025-10-15 06:56:16,035 :INFO :**********Create a Rotation Test is Successful********

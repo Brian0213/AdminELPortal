@@ -25,30 +25,8 @@ class Test_Scheduling(BaseTest):
     @pytest.mark.order(1)
     def test_login(self, setup):
         self.elportal = setup
-<<<<<<< HEAD
         self.login(self.elportal)
-=======
-        # self.login(self.elportal)
-        self.logger.info("******** Verifying Login Test ********")
-        self.logger.info("******** Call the Browse Configuration ********")
-        self.elportal.implicitly_wait(10)
-        self.logger.info("******** Launch the Application URL ********")
-        self.elportal.get(self.baseURL)
-        self.logger.info("******** Define the LoginPage Driver ********")
-        self.elp = LoginPage(self.elportal)
-        self.logger.info("******** Click the Home Button ********")
-        self.elp.clickHomeButton()
-        time.sleep(3)
-        self.logger.info("******** Enter the Username ********")
-        self.elp.emailAddress(self.username)
-        time.sleep(3)
-        self.logger.info("******** Enter the Password ********")
-        self.elp.setPassword(self.password)
-        time.sleep(3)
-        self.logger.info("******** Click the Sign in Button********")
-        self.elp.clickSignin()
         time.sleep(5)
->>>>>>> 34dc4733fd45867c38ba226a764df08831b4ca30
         self.logger.info("******** Verifying Scheduling Creation********")
         self.logger.info("******** Define the Job Driver********")
         self.dfc = DfcPage(self.elportal)
@@ -56,7 +34,6 @@ class Test_Scheduling(BaseTest):
         parentwindowid = windowsIDs[0]
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.dfc.clickDFC()
-        # self.elportal.find_element(By.XPATH, "//span[contains(text(), 'DFC Rotations')]").click()
         self.logger.info("******** Click Scheduling menu********")
         self.dfc.clickScheduling()
         self.logger.info("******** Click Create Rotation Button********")
