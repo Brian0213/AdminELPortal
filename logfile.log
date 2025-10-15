@@ -17975,3 +17975,195 @@
 2025-10-14 15:03:00,018 :INFO :******** Click the Save & Close Button********
 2025-10-14 15:03:05,184 :INFO :******** Close the Browser********
 2025-10-14 15:03:05,507 :INFO :**********Create a Rotation Test is Successful********
+2025-10-14 15:17:01,078 :INFO :====== WebDriver manager ======
+2025-10-14 15:17:10,494 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-14 15:17:10,988 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-14 15:17:11,398 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-14 15:17:12,984 :INFO :******** Verifying Login Test ********
+2025-10-14 15:17:12,984 :INFO :******** Call the Browse Configuration ********
+2025-10-14 15:17:12,985 :INFO :******** Launch the Application URL ********
+2025-10-14 15:17:16,387 :INFO :******** Define the LoginPage Driver ********
+2025-10-14 15:17:16,387 :INFO :******** Click the Home Button ********
+2025-10-14 15:17:20,580 :INFO :******** Enter the Username ********
+2025-10-14 15:17:23,908 :INFO :******** Enter the Password ********
+2025-10-14 15:17:27,092 :INFO :******** Click the Sign in Button********
+2025-10-14 15:17:28,182 :INFO :******** Verifying Scheduling Creation********
+2025-10-14 15:17:28,182 :INFO :******** Define the Job Driver********
+2025-10-14 15:17:28,185 :INFO :******** Click DFC Rotations Menu ********
+2025-10-14 15:30:36,246 :INFO :====== WebDriver manager ======
+2025-10-14 15:30:45,610 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-14 15:30:46,302 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-14 15:30:46,809 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-14 15:30:48,368 :INFO :******** Verifying Login Test ********
+2025-10-14 15:30:48,369 :INFO :******** Call the Browse Configuration ********
+2025-10-14 15:30:48,370 :INFO :******** Launch the Application URL ********
+2025-10-14 15:30:51,517 :INFO :******** Define the LoginPage Driver ********
+2025-10-14 15:30:51,518 :INFO :******** Click the Home Button ********
+2025-10-14 15:30:55,796 :INFO :******** Enter the Username ********
+2025-10-14 15:30:59,169 :INFO :******** Enter the Password ********
+2025-10-14 15:31:02,315 :INFO :******** Click the Sign in Button********
+2025-10-14 15:31:03,393 :INFO :******** Verifying Scheduling Creation********
+2025-10-14 15:31:03,394 :INFO :******** Define the Job Driver********
+2025-10-14 15:31:03,398 :INFO :******** Click DFC Rotations Menu ********
+2025-10-14 15:33:58,622 :INFO :====== WebDriver manager ======
+2025-10-14 15:34:07,094 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-14 15:34:07,444 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-14 15:34:07,862 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-14 15:34:09,536 :INFO :******** Verifying Login Test ********
+2025-10-14 15:34:09,536 :INFO :******** Call the Browse Configuration ********
+2025-10-14 15:34:09,537 :INFO :******** Launch the Application URL ********
+2025-10-14 15:34:12,809 :INFO :******** Define the LoginPage Driver ********
+2025-10-14 15:34:12,809 :INFO :******** Click the Home Button ********
+2025-10-14 15:34:17,116 :INFO :******** Enter the Username ********
+2025-10-14 15:34:20,369 :INFO :******** Enter the Password ********
+2025-10-14 15:34:23,552 :INFO :******** Click the Sign in Button********
+2025-10-14 15:34:24,590 :INFO :******** Verifying Scheduling Creation********
+2025-10-14 15:34:24,590 :INFO :******** Define the Job Driver********
+2025-10-14 15:34:24,594 :INFO :******** Click DFC Rotations Menu ********
+2025-10-14 15:37:42,827 :INFO :====== WebDriver manager ======
+2025-10-14 15:37:52,360 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-14 15:37:52,866 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-14 15:37:53,284 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-14 15:37:55,120 :INFO :******** Verifying Login Test ********
+2025-10-14 15:37:55,120 :INFO :******** Call the Browse Configuration ********
+2025-10-14 15:37:55,121 :INFO :******** Launch the Application URL ********
+2025-10-14 15:37:57,618 :INFO :******** Define the LoginPage Driver ********
+2025-10-14 15:37:57,618 :INFO :******** Click the Home Button ********
+2025-10-14 15:38:01,848 :INFO :******** Enter the Username ********
+2025-10-14 15:38:05,132 :INFO :******** Enter the Password ********
+2025-10-14 15:38:08,333 :INFO :******** Click the Sign in Button********
+2025-10-14 15:38:08,521 :INFO :******** Verifying Scheduling Creation********
+2025-10-14 15:38:08,521 :INFO :******** Define the Job Driver********
+2025-10-14 15:38:08,524 :INFO :******** Click DFC Rotations Menu ********
+2025-10-14 15:41:21,872 :INFO :====== WebDriver manager ======
+2025-10-14 15:41:31,075 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-14 15:41:31,531 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-14 15:41:31,968 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-14 15:41:33,721 :INFO :******** Verifying Login Test ********
+2025-10-14 15:41:33,722 :INFO :******** Call the Browse Configuration ********
+2025-10-14 15:41:33,723 :INFO :******** Launch the Application URL ********
+2025-10-14 15:41:37,183 :INFO :******** Define the LoginPage Driver ********
+2025-10-14 15:41:37,183 :INFO :******** Click the Home Button ********
+2025-10-14 15:41:41,264 :INFO :******** Enter the Username ********
+2025-10-14 15:41:44,675 :INFO :******** Enter the Password ********
+2025-10-14 15:41:47,867 :INFO :******** Click the Sign in Button********
+2025-10-14 15:41:48,668 :INFO :******** Verifying Scheduling Creation********
+2025-10-14 15:41:48,668 :INFO :******** Define the Job Driver********
+2025-10-14 15:41:48,709 :INFO :******** Click DFC Rotations Menu ********
+2025-10-15 01:47:21,122 :INFO :====== WebDriver manager ======
+2025-10-15 01:47:29,875 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 01:47:30,218 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 01:47:30,522 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-15 01:47:32,144 :INFO :****** Starting login ******
+2025-10-15 01:47:35,680 :INFO :******** Click the Home Button ********
+2025-10-15 01:47:39,842 :INFO :****** Login successful ******
+2025-10-15 01:47:39,842 :INFO :******** Verifying Scheduling Creation********
+2025-10-15 01:47:39,842 :INFO :******** Define the Job Driver********
+2025-10-15 01:47:39,844 :INFO :******** Click DFC Rotations Menu ********
+2025-10-15 01:49:26,691 :INFO :====== WebDriver manager ======
+2025-10-15 01:49:34,478 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 01:49:34,793 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 01:49:35,084 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-15 01:49:36,551 :INFO :****** Starting login ******
+2025-10-15 01:49:40,029 :INFO :******** Click the Home Button ********
+2025-10-15 01:49:43,710 :INFO :****** Login successful ******
+2025-10-15 01:49:43,710 :INFO :******** Verifying Scheduling Creation********
+2025-10-15 01:49:43,710 :INFO :******** Define the Job Driver********
+2025-10-15 01:49:43,713 :INFO :******** Click DFC Rotations Menu ********
+2025-10-15 01:49:43,847 :INFO :******** Click Scheduling menu********
+2025-10-15 01:49:44,115 :INFO :******** Click Create Rotation Button********
+2025-10-15 01:49:44,618 :INFO :********Switch to the Create a DFC Rotation Form********
+2025-10-15 01:49:44,622 :INFO :********Enter the Rotation Name********
+2025-10-15 01:49:45,092 :INFO :******** Click the Site Dropdown********
+2025-10-15 01:49:45,188 :INFO :******** Select a Site********
+2025-10-15 01:49:45,361 :INFO :******** Click the Subtract Max Learners Button********
+2025-10-15 01:49:45,414 :INFO :******** Click the Add Max Learners Button********
+2025-10-15 01:49:45,466 :INFO :********Click the Assign Coordinator Dropdown********
+2025-10-15 01:49:45,552 :INFO :******** Select a Coordinator********
+2025-10-15 01:49:45,615 :INFO :******** Click the Assign Faculty Dropdown********
+2025-10-15 01:49:45,661 :INFO :******** Select a Faculty********
+2025-10-15 01:49:45,801 :INFO :******** Select Year********
+2025-10-15 01:49:45,937 :INFO :******** Select Month********
+2025-10-15 01:49:46,040 :INFO :******** Select Day********
+2025-10-15 01:49:46,216 :INFO :******** Click the Live Date Calendar********
+2025-10-15 01:49:46,283 :INFO :******** Select Live Date Month********
+2025-10-15 01:49:46,332 :INFO :********Select Live Date Year*******
+2025-10-15 01:49:46,471 :INFO :******** Select the Live Date********
+2025-10-15 01:49:47,131 :INFO :********Enter the Start Time********
+2025-10-15 01:49:47,256 :INFO :********Enter the Start Minute********
+2025-10-15 01:49:47,415 :INFO :********Enter the End hour********
+2025-10-15 01:49:47,658 :INFO :******** Select End option PM********
+2025-10-15 01:49:47,950 :INFO :******** Switch to the External Notes' Iframe********
+2025-10-15 01:49:47,987 :INFO :******** Enter the External Notes********
+2025-10-15 01:49:48,095 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-15 01:49:48,097 :INFO :******** Click the Internal Notes Tab********
+2025-10-15 01:49:48,162 :INFO :******** Switch to the Internal Notes' Iframe********
+2025-10-15 01:49:48,196 :INFO :******** Enter the Internal Notes********
+2025-10-15 01:59:09,273 :INFO :====== WebDriver manager ======
+2025-10-15 01:59:18,347 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 01:59:18,715 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 01:59:19,016 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-15 01:59:20,863 :INFO :****** Starting login ******
+2025-10-15 01:59:23,327 :INFO :******** Click the Home Button ********
+2025-10-15 01:59:28,486 :INFO :****** Login successful ******
+2025-10-15 01:59:28,487 :INFO :******** Login Test is successful ********
+2025-10-15 01:59:28,496 :INFO :******** Assert Page Title ********
+2025-10-15 01:59:28,587 :INFO :Login Test is successful and assertion passed
+2025-10-15 01:59:28,593 :INFO :====== WebDriver manager ======
+2025-10-15 01:59:35,455 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 01:59:35,787 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 01:59:36,086 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-15 01:59:37,500 :INFO :****** Starting login ******
+2025-10-15 01:59:39,866 :INFO :******** Click the Home Button ********
+2025-10-15 01:59:44,062 :INFO :****** Login successful ******
+2025-10-15 01:59:44,062 :INFO :******** Verifying Scheduling Creation********
+2025-10-15 01:59:44,062 :INFO :******** Define the Job Driver********
+2025-10-15 01:59:44,065 :INFO :******** Click DFC Rotations Menu ********
+2025-10-15 01:59:44,197 :INFO :******** Click Scheduling menu********
+2025-10-15 01:59:44,477 :INFO :******** Click Create Rotation Button********
+2025-10-15 01:59:44,929 :INFO :********Switch to the Create a DFC Rotation Form********
+2025-10-15 01:59:44,932 :INFO :********Enter the Rotation Name********
+2025-10-15 01:59:45,392 :INFO :******** Click the Site Dropdown********
+2025-10-15 01:59:45,509 :INFO :******** Select a Site********
+2025-10-15 01:59:45,670 :INFO :******** Click the Subtract Max Learners Button********
+2025-10-15 01:59:45,727 :INFO :******** Click the Add Max Learners Button********
+2025-10-15 01:59:45,782 :INFO :********Click the Assign Coordinator Dropdown********
+2025-10-15 01:59:45,840 :INFO :******** Select a Coordinator********
+2025-10-15 01:59:45,909 :INFO :******** Click the Assign Faculty Dropdown********
+2025-10-15 01:59:45,962 :INFO :******** Select a Faculty********
+2025-10-15 01:59:46,088 :INFO :******** Select Year********
+2025-10-15 01:59:46,289 :INFO :******** Select Month********
+2025-10-15 01:59:46,379 :INFO :******** Select Day********
+2025-10-15 01:59:46,530 :INFO :******** Click the Live Date Calendar********
+2025-10-15 01:59:46,595 :INFO :******** Select Live Date Month********
+2025-10-15 01:59:46,631 :INFO :********Select Live Date Year*******
+2025-10-15 01:59:46,728 :INFO :******** Select the Live Date********
+2025-10-15 01:59:47,047 :INFO :********Enter the Start Time********
+2025-10-15 01:59:47,154 :INFO :********Enter the Start Minute********
+2025-10-15 01:59:47,244 :INFO :********Enter the End hour********
+2025-10-15 01:59:47,331 :INFO :******** Select End option PM********
+2025-10-15 01:59:47,386 :INFO :******** Switch to the External Notes' Iframe********
+2025-10-15 01:59:47,412 :INFO :******** Enter the External Notes********
+2025-10-15 01:59:47,526 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-15 01:59:47,528 :INFO :******** Click the Internal Notes Tab********
+2025-10-15 01:59:47,592 :INFO :******** Switch to the Internal Notes' Iframe********
+2025-10-15 01:59:47,633 :INFO :******** Enter the Internal Notes********
+2025-10-15 01:59:47,765 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-15 01:59:47,781 :INFO :******** Click the Save & Close Button********
+2025-10-15 01:59:52,859 :INFO :******** Close the Browser********
+2025-10-15 01:59:53,083 :INFO :**********Create a Rotation Test is Successful********
+2025-10-15 01:59:53,087 :INFO :====== WebDriver manager ======
+2025-10-15 02:00:00,679 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 02:00:00,993 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-15 02:00:01,309 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-15 02:00:02,700 :INFO :****** Starting login ******
+2025-10-15 02:00:05,777 :INFO :******** Click the Home Button ********
+2025-10-15 02:00:08,510 :INFO :****** Login successful ******
+2025-10-15 02:00:08,510 :INFO :******** Verifying Add Learner by Search********
+2025-10-15 02:00:08,510 :INFO :******** Define the Job Driver********
+2025-10-15 02:00:08,513 :INFO :******** Click DFC Rotations Menu ********
+2025-10-15 02:00:08,583 :INFO :******** Click Scheduling menu********
+2025-10-15 02:00:09,826 :INFO :********Switch to the Create a DFC Rotation Form********
+2025-10-15 02:00:09,834 :INFO :******** Click Learner Field's Dropdown********
+2025-10-15 02:00:10,658 :INFO :******** Look up a learner's criteria********
+2025-10-15 02:00:10,705 :INFO :******** Define a Variable for the Learner********

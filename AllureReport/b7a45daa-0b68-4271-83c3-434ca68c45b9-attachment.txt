@@ -1,0 +1,15 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:test_T02Scheduling.py:29 ******** Verifying Login Test ********
+[32mINFO    [0m root:test_T02Scheduling.py:30 ******** Call the Browse Configuration ********
+[32mINFO    [0m root:test_T02Scheduling.py:32 ******** Launch the Application URL ********
+[32mINFO    [0m root:test_T02Scheduling.py:34 ******** Define the LoginPage Driver ********
+[32mINFO    [0m root:test_T02Scheduling.py:36 ******** Click the Home Button ********
+[32mINFO    [0m root:test_T02Scheduling.py:39 ******** Enter the Username ********
+[32mINFO    [0m root:test_T02Scheduling.py:42 ******** Enter the Password ********
+[32mINFO    [0m root:test_T02Scheduling.py:45 ******** Click the Sign in Button********
+[32mINFO    [0m root:test_T02Scheduling.py:47 ******** Verifying Scheduling Creation********
+[32mINFO    [0m root:test_T02Scheduling.py:48 ******** Define the Job Driver********
+[32mINFO    [0m root:test_T02Scheduling.py:52 ******** Click DFC Rotations Menu ********
