@@ -1,0 +1,143 @@
+pipeline {
+    agent any
+
+    options {
+        timestamps()
+        buildDiscarder(logRotator(numToKeepStr: '10'))
+    }
+
+    environment {
+        PYTHON_NAME = 'Python313'             // Must match the name under Global Tool Configuration
+        REPORT_DIR = "${WORKSPACE}/Reports"
+        ALLURE_RESULTS = "${WORKSPACE}/allurereports"
+        PYTHONPATH = "${WORKSPACE}"
+    }
+
+    stages {
+        stage('Setup Chrome & ChromeDriver') {
+            when { expression { isUnix() } }
+            steps {
+                sh '''
+                    echo "=== Installing Google Chrome & ChromeDriver ==="
+                    sudo apt-get update
+                    sudo apt-get install -y wget unzip curl
+
+                    # Install Google Chrome
+                    wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+                    sudo apt install -y ./google-chrome-stable_current_amd64.deb
+                    rm google-chrome-stable_current_amd64.deb
+
+                    # Determine Chrome version
+                    CHROME_VERSION=$(google-chrome-stable --version | sed 's/Google Chrome //' | cut -d '.' -f 1)
+                    echo "Installed Chrome major version: $CHROME_VERSION"
+
+                    # Install matching ChromeDriver
+                    DRIVER_VERSION=$(curl -sSL https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION})
+                    wget -q https://chromedriver.storage.googleapis.com/${DRIVER_VERSION}/chromedriver_linux64.zip
+                    unzip -o chromedriver_linux64.zip
+                    chmod +x chromedriver
+                    sudo mv chromedriver /usr/local/bin/
+                    rm chromedriver_linux64.zip
+
+                    google-chrome-stable --version
+                    chromedriver --version
+                '''
+            }
+        }
+
+        stage('Checkout Code') {
+            steps {
+                checkout scmGit(
+                    branches: [[name: '*/master']],
+                    userRemoteConfigs: [[
+                        url: 'https://github.com/Brian0213/AdminELPortal.git'
+                    ]]
+                )
+            }
+        }
+
+        stage('Setup Python Environment (ShiningPanda)') {
+            steps {
+                // Use ShiningPanda to create a Python virtual environment automatically
+                withPythonEnv("${PYTHON_NAME}") {
+                    script {
+                        if (isUnix()) {
+                            sh '''
+                                echo "=== Installing Dependencies ==="
+                                python3 -m pip install --upgrade pip
+                                pip install -r requirements.txt
+                                pip install pytest pytest-html pytest-xdist selenium webdriver-manager
+                            '''
+                        } else {
+                            bat '''
+                                echo "=== Installing Dependencies ==="
+                                python -m pip install --upgrade pip
+                                pip install -r requirements.txt
+                                pip install pytest pytest-html pytest-xdist selenium webdriver-manager
+                            '''
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                withPythonEnv("${PYTHON_NAME}") {
+                    script {
+                        if (isUnix()) {
+                            sh '''
+                                echo "=== Running Pytest Tests ==="
+                                export PYTHONPATH="${PYTHONPATH}"
+                                pytest testScripts/ \
+                                    --alluredir="${ALLURE_RESULTS}" \
+                                    --html="${REPORT_DIR}/index.html" \
+                                    --self-contained-html
+                            '''
+                        } else {
+                            bat '''
+                                echo "=== Running Pytest Tests ==="
+                                set PYTHONPATH=%PYTHONPATH%
+                                pytest testScripts\\ ^
+                                    --alluredir="%ALLURE_RESULTS%" ^
+                                    --html="%REPORT_DIR%\\index.html" ^
+                                    --self-contained-html
+                            '''
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Publish Reports') {
+            steps {
+                script {
+                    echo "=== Publishing Reports ==="
+
+                    allure([
+                        includeProperties: false,
+                        reportBuildPolicy: 'ALWAYS',
+                        results: [[path: "${ALLURE_RESULTS}"]]
+                    ])
+
+                    publishHTML([
+                        allowMissing: false,
+                        alwaysLinkToLastBuild: false,
+                        keepAll: true,
+                        reportDir: "${REPORT_DIR}",
+                        reportFiles: 'index.html',
+                        reportName: 'Pytest HTML Report'
+                    ])
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            echo "=== Archiving Artifacts & Cleaning Workspace ==="
+            archiveArtifacts artifacts: 'Reports/**', allowEmptyArchive: true
+            cleanWs()
+        }
+    }
+}
