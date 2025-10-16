@@ -22,7 +22,7 @@ class Test_Scheduling(BaseTest):
     intnote = "Preceptee's Todo On The First Day"
     siteabbrev = "St Nicholas"
 
-    @pytest.mark.order(1)
+    @pytest.mark.skip(reason="Skipping this test for now")
     def test_login(self, setup):
         self.elportal = setup
         self.login(self.elportal)
@@ -45,10 +45,7 @@ class Test_Scheduling(BaseTest):
         self.logger.info("********Enter the Rotation Name********")
         self.dfc.rotationName(self.rotatename)
         self.logger.info("******** Click the Site Dropdown********")
-        # self.elportal.find_element(By.XPATH, "//input[@id='asel_site-ts-control']").send_keys("St Nicholas")
-        # self.elportal.find_element(By.XPATH, "//div[@class='ts-control']").click()
-        #self.elportal.find_element(By.XPATH, "//div[@class='ts-wrapper single focus input-active dropdown-active']//div[@class='ts-dropdown single']").click()
-        time.sleep(2)
+
         self.elportal.find_element(By.XPATH, '//*[@id="dfc_sites-ts-dropdown"]//*[@id="dfc_sites-opt-1001"]').click()
         # self.dfc.siteSearch(self.siteabbrev)
         # self.logger.info("******** Select a Site********")

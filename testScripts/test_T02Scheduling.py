@@ -5,10 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 from Pages.DFCPage import DfcPage
-from Pages.LoginPage import LoginPage
 from testScripts.base_test import BaseTest
-from utility.readProperties import ReadConfig
-from utility.customLogger import LogGen
+
 
 class Test_Scheduling(BaseTest):
 

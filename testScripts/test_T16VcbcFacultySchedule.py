@@ -27,10 +27,8 @@ class Test_VCBC_FacultySchedule(BaseTest):
         parentwindowid = windowsIDs[0]
         self.logger.info("******** Click User Menu Button ********")
         self.vcb.btnUser()
-        # self.elportal.find_element(By.XPATH, "//button[normalize-space()='Auto Admin']").click()
         self.logger.info("******** Click Impersonate Button ********")
         self.vcb.btnImpersonate()
-        # self.elportal.find_element(By.XPATH, "//button[normalize-space()='Impersonate']").click()
         self.logger.info("********Switch to the Impersonate A User Form********")
         self.elportal.switch_to.window(parentwindowid)
         self.logger.info("********Enter the Faculty Email Address********")

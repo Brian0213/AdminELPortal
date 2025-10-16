@@ -201,7 +201,7 @@ class VCBCPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Close']"))).click()
 
     def singleVCBC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[3]/td[6]/a[1]/span[1]"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[5]/td[6]/a[1]/span[1]"))).click()
 
     def allocateSlotBtn(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Assign Slots']"))).click()
@@ -271,13 +271,13 @@ class VCBCPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[5]/a'))).click()
 
     def vcbcViewButton(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="f_vcbc_listing"]/div[1]/pbody/div/table/tbody/tr[1]/td[5]/a'))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//tbody/tr[4]/td[5]/a[1]/span[1]'))).click()
 
     def btnScheduleDate(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@x-model='sdate']/option[@value='2025-11-10']"))).click()
 
     def btnScheduleTime(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@x-model='stime']/option[@value='08:00']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@x-model='stime']/option[@value='11:15']"))).click()
 
     def btnSchedule(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Schedule']"))).click()
@@ -287,6 +287,12 @@ class VCBCPage:
 
     def btnStop(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='stop']"))).click()
+
+    def selectVCBC(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[5]/td[6]/a[1]/span[1]"))).click()
+
+    def btnEditVcbc(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Edit']"))).click()
 
     def pickDate(self, driver, date_value):
         alldates = driver.find_elements(By.XPATH, '//div[@class="dayContainer"]//span')

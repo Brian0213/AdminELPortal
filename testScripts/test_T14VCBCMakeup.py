@@ -38,8 +38,6 @@ class Test_Create_VCBC_Makeup(BaseTest):
         self.vcb.createVCBC()
         self.logger.info("********Switch to the Create VCBCs Form********")
         self.elportal.switch_to.window(parentwindowid)
-        self.logger.info("********Switch to the Create SOFEs Form********")
-        self.elportal.switch_to.window(parentwindowid)
         self.logger.info("********Enter the Session Name********")
         self.vcb.vcbcSessionName(self.sessionname)
         self.logger.info("********Select the Session Type Makeup********")

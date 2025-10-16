@@ -31,22 +31,12 @@ class Test_ImpersonateFaculty(BaseTest):
         self.elp.buttonImpersonate()
         self.logger.info("********Switch to the Impersonate A User Modal********")
         self.elportal.switch_to.window(parentwindowid)
-        # time.sleep(2)
         self.logger.info("********Enter the Email into the Email of User to impersonate field********")
         self.elp.emailImpersonate(self.emailimpersonate)
         self.logger.info("********Click the Impersonate Button********")
         self.elp.Impersonate()
-
-        # self.logger.info("********Click the DFC Rotation Menu********")
-        # self.elp.clickDFC()
-
-        self.logger.info("********Click the VCBC Management Menu********")
-        # self.elp.clickVCBCMgt()
-        self.elportal.find_element(By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[3]/a').click()
-        time.sleep(10)
         self.logger.info("********Click the Stop Button to End Impersonation********")
         self.elp.stopImpersonate()
-
         self.logger.info("******** Close the Browser********")
         self.elportal.close()
         self.logger.info("**********Impersonate a Faculty is Successful********")

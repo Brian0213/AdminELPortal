@@ -279,14 +279,14 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-6-opt-3"]'))).click()
 
     def learnSLT2(self):
-       WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-7-opt-2"]'))).click()
+       WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@data-value="1755902841"]'))).click()
 
     def learnSLT3(self):
        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-7-opt-4"]'))).click()
 
 
     def learnSRC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-5-opt-237"]'))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//div[@data-value="1755902732"]'))).click()
 
     def createSOFE(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Create SOFE']"))).click()

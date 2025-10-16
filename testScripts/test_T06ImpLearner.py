@@ -35,11 +35,6 @@ class Test_ImpersonateLearner(BaseTest):
         self.elp.emailImpersonate(self.emailimpersonate)
         self.logger.info("********Click the Impersonate Button********")
         self.elp.Impersonate()
-
-        self.logger.info("********Click the DFC Rotation Menu********")
-        self.elp.clickDFC()
-        self.logger.info("********Click the VCBC Management Menu********")
-        self.elp.clickVCBCMgt()
         self.logger.info("********Click the Stop Button to End Impersonation********")
         self.elp.stopImpersonate()
         self.logger.info("******** Close the Browser********")

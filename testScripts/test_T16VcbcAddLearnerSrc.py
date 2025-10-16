@@ -30,7 +30,7 @@ class Test_VCBC_AddLearnerBySearch(BaseTest):
         self.logger.info("******** Select the VCBC Session********")
         self.vcb.singleVCBC()
         self.logger.info("******** Click the Faculty Slot One********")
-        self.vcb.btnVcbcSlot2()
+        self.vcb.btnVcbcSlot1()
         self.logger.info("******** Click the Add Learner Button********")
         self.vcb.btnAddLearner()
         self.logger.info("********Switch to the Create a DFC Rotation Form********")

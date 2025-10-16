@@ -24,7 +24,6 @@ class Test_Publish_to_Faculty_Rotation(BaseTest):
         self.dfc = DfcPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
-        time.sleep(3)
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.dfc.clickDFC()
         self.logger.info("******** Click Scheduling menu********")
