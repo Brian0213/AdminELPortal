@@ -1,0 +1,17 @@
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 There is no [linux64] chromedriver "141.0.7390.78" for browser google-chrome "141.0.7390" in cache
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 WebDriver version 141.0.7390.78 selected
+INFO     WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.78/linux64/chromedriver-linux64.zip
+INFO     WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.78/linux64/chromedriver-linux64.zip
+INFO     WDM:logger.py:11 Driver downloading response is 200
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/141.0.7390.78]
+INFO     root:base_test.py:88 ****** Starting login ******
+INFO     root:base_test.py:92 ******** Click the Home Button ********
+INFO     root:base_test.py:98 ****** Login successful ******
+INFO     root:test_T02Scheduling.py:28 ******** Verifying Scheduling Creation********
+INFO     root:test_T02Scheduling.py:29 ******** Define the Job Driver********
+INFO     root:test_T02Scheduling.py:33 ******** Click DFC Rotations Menu ********
