@@ -20491,3 +20491,218 @@
 2025-10-19 11:51:03,920 :INFO :********Click the Stop Button to End Impersonation********
 2025-10-19 11:51:04,626 :INFO :******** Close the Browser********
 2025-10-19 11:51:04,780 :INFO :**********Impersonate a Learner  is Successful********
+2025-10-19 12:12:11,567 :INFO :====== WebDriver manager ======
+2025-10-19 12:12:20,903 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:12:21,598 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:12:22,015 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-19 12:12:23,710 :INFO :****** Starting login ******
+2025-10-19 12:12:27,489 :INFO :******** Click the Home Button ********
+2025-10-19 12:12:31,610 :INFO :****** Login successful ******
+2025-10-19 12:12:31,611 :INFO :******** Verifying VCBCs Makeup Creation********
+2025-10-19 12:12:31,611 :INFO :******** Define the Job Driver********
+2025-10-19 12:12:31,616 :INFO :******** Click DFC Rotations Menu ********
+2025-10-19 12:12:31,876 :INFO :******** Click Create VCBCs Button********
+2025-10-19 12:12:32,561 :INFO :********Switch to the Create VCBCs Form********
+2025-10-19 12:12:32,566 :INFO :********Enter the Session Name********
+2025-10-19 12:12:33,120 :INFO :********Select the Session Type Makeup********
+2025-10-19 12:12:33,251 :INFO :******** Click the Course Field********
+2025-10-19 12:12:33,383 :INFO :******** Lookup Course********
+2025-10-19 12:12:33,457 :INFO :******** Select Course ********
+2025-10-19 12:12:33,521 :INFO :******** Switch to the Notes' Iframe********
+2025-10-19 12:12:33,597 :INFO :******** Enter the Notes********
+2025-10-19 12:12:33,803 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-19 12:12:33,806 :INFO :******** Click the Date Field********
+2025-10-19 12:12:33,974 :INFO :******** Select the Date Month********
+2025-10-19 12:12:34,062 :INFO :******** Select the Date Year********
+2025-10-19 12:12:34,419 :INFO :******** Select the Date Number********
+2025-10-19 12:12:34,613 :INFO :******** Enter Number of Slots********
+2025-10-19 12:12:34,752 :INFO :******** Select the Live At Hour********
+2025-10-19 12:12:34,862 :INFO :******** Select the Live At Month********
+2025-10-19 12:12:35,025 :INFO :******** Select the Live At Year********
+2025-10-19 12:12:35,286 :INFO :******** Select the Live At Date********
+2025-10-19 12:12:36,083 :INFO :******** Select the Live At Hour********
+2025-10-19 12:12:36,341 :INFO :******** Click the Close At Field********
+2025-10-19 12:12:36,472 :INFO :******** Select the Close At Month********
+2025-10-19 12:12:36,601 :INFO :******** Select the Close At Year********
+2025-10-19 12:12:36,767 :INFO :******** Select the Close At Date********
+2025-10-19 12:12:38,030 :INFO :******** Select the Close Hour********
+2025-10-19 12:12:38,248 :INFO :******** Click the Save Changes Button********
+2025-10-19 12:12:38,374 :INFO :******** Close the Browser********
+2025-10-19 12:12:38,516 :INFO :**********MakeUp VCBCs Creation Test is Successful********
+2025-10-19 12:14:13,917 :INFO :====== WebDriver manager ======
+2025-10-19 12:14:22,885 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:14:23,367 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:14:23,680 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-19 12:14:25,169 :INFO :****** Starting login ******
+2025-10-19 12:14:27,589 :INFO :******** Click the Home Button ********
+2025-10-19 12:14:32,068 :INFO :****** Login successful ******
+2025-10-19 12:14:32,069 :INFO :******** Verifying VCBCs Makeup Creation********
+2025-10-19 12:14:32,069 :INFO :******** Define the Job Driver********
+2025-10-19 12:14:32,074 :INFO :******** Click DFC Rotations Menu ********
+2025-10-19 12:14:32,362 :INFO :******** Click Create VCBCs Button********
+2025-10-19 12:14:33,157 :INFO :********Switch to the Create VCBCs Form********
+2025-10-19 12:14:33,177 :INFO :********Enter the Session Name********
+2025-10-19 12:14:33,767 :INFO :********Select the Session Type Makeup********
+2025-10-19 12:14:34,002 :INFO :******** Click the Course Field********
+2025-10-19 12:14:34,376 :INFO :******** Lookup Course********
+2025-10-19 12:14:34,646 :INFO :******** Select Course ********
+2025-10-19 12:14:34,902 :INFO :******** Switch to the Notes' Iframe********
+2025-10-19 12:14:35,041 :INFO :******** Enter the Notes********
+2025-10-19 12:14:35,330 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-19 12:14:35,337 :INFO :******** Click the Date Field********
+2025-10-19 12:14:35,566 :INFO :******** Select the Date Month********
+2025-10-19 12:14:35,683 :INFO :******** Select the Date Year********
+2025-10-19 12:14:36,109 :INFO :******** Select the Date Number********
+2025-10-19 12:14:36,414 :INFO :******** Enter Number of Slots********
+2025-10-19 12:14:36,867 :INFO :******** Select the Live At Hour********
+2025-10-19 12:14:37,215 :INFO :******** Select the Live At Month********
+2025-10-19 12:14:37,533 :INFO :******** Select the Live At Year********
+2025-10-19 12:14:37,952 :INFO :******** Select the Live At Date********
+2025-10-19 12:14:39,264 :INFO :******** Select the Live At Hour********
+2025-10-19 12:14:39,717 :INFO :******** Click the Close At Field********
+2025-10-19 12:14:39,987 :INFO :******** Select the Close At Month********
+2025-10-19 12:14:40,145 :INFO :******** Select the Close At Year********
+2025-10-19 12:14:40,487 :INFO :******** Select the Close At Date********
+2025-10-19 12:14:43,517 :INFO :******** Select the Close Hour********
+2025-10-19 12:14:43,880 :INFO :******** Click the Save Changes Button********
+2025-10-19 12:14:44,183 :INFO :******** Close the Browser********
+2025-10-19 12:15:28,996 :INFO :====== WebDriver manager ======
+2025-10-19 12:15:38,291 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:15:38,730 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:15:39,061 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-19 12:15:40,750 :INFO :****** Starting login ******
+2025-10-19 12:15:44,126 :INFO :******** Click the Home Button ********
+2025-10-19 12:15:49,270 :INFO :****** Login successful ******
+2025-10-19 12:15:49,270 :INFO :******** Verifying VCBCs Makeup Creation********
+2025-10-19 12:15:49,271 :INFO :******** Define the Job Driver********
+2025-10-19 12:15:49,275 :INFO :******** Click DFC Rotations Menu ********
+2025-10-19 12:15:49,495 :INFO :******** Click Create VCBCs Button********
+2025-10-19 12:15:50,167 :INFO :********Switch to the Create VCBCs Form********
+2025-10-19 12:15:50,172 :INFO :********Enter the Session Name********
+2025-10-19 12:15:50,748 :INFO :********Select the Session Type Makeup********
+2025-10-19 12:15:51,010 :INFO :******** Click the Course Field********
+2025-10-19 12:15:51,310 :INFO :******** Lookup Course********
+2025-10-19 12:15:51,543 :INFO :******** Select Course ********
+2025-10-19 12:15:51,807 :INFO :******** Switch to the Notes' Iframe********
+2025-10-19 12:15:51,943 :INFO :******** Enter the Notes********
+2025-10-19 12:15:52,309 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-19 12:15:52,318 :INFO :******** Click the Date Field********
+2025-10-19 12:15:52,560 :INFO :******** Select the Date Month********
+2025-10-19 12:15:52,646 :INFO :******** Select the Date Year********
+2025-10-19 12:15:52,931 :INFO :******** Select the Date Number********
+2025-10-19 12:15:53,403 :INFO :******** Enter Number of Slots********
+2025-10-19 12:15:53,794 :INFO :******** Select the Live At Hour********
+2025-10-19 12:15:54,054 :INFO :******** Select the Live At Month********
+2025-10-19 12:15:54,269 :INFO :******** Select the Live At Year********
+2025-10-19 12:15:54,598 :INFO :******** Select the Live At Date********
+2025-10-19 12:15:55,813 :INFO :******** Select the Live At Hour********
+2025-10-19 12:15:56,118 :INFO :******** Click the Close At Field********
+2025-10-19 12:15:56,261 :INFO :******** Select the Close At Month********
+2025-10-19 12:15:56,393 :INFO :******** Select the Close At Year********
+2025-10-19 12:15:56,639 :INFO :******** Select the Close At Date********
+2025-10-19 12:15:59,318 :INFO :******** Select the Close Hour********
+2025-10-19 12:15:59,568 :INFO :******** Click the Save Changes Button********
+2025-10-19 12:15:59,709 :INFO :******** Close the Browser********
+2025-10-19 12:17:14,905 :INFO :====== WebDriver manager ======
+2025-10-19 12:17:21,104 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:17:21,492 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:17:21,816 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-19 12:17:23,356 :INFO :****** Starting login ******
+2025-10-19 12:17:26,957 :INFO :******** Click the Home Button ********
+2025-10-19 12:17:31,668 :INFO :****** Login successful ******
+2025-10-19 12:17:31,669 :INFO :******** Verifying VCBCs Makeup Creation********
+2025-10-19 12:17:31,669 :INFO :******** Define the Job Driver********
+2025-10-19 12:17:31,674 :INFO :******** Click DFC Rotations Menu ********
+2025-10-19 12:17:31,966 :INFO :******** Click Create VCBCs Button********
+2025-10-19 12:17:32,742 :INFO :********Switch to the Create VCBCs Form********
+2025-10-19 12:17:32,747 :INFO :********Enter the Session Name********
+2025-10-19 12:17:33,237 :INFO :********Select the Session Type Makeup********
+2025-10-19 12:17:33,471 :INFO :******** Click the Course Field********
+2025-10-19 12:17:33,692 :INFO :******** Lookup Course********
+2025-10-19 12:17:33,931 :INFO :******** Select Course ********
+2025-10-19 12:17:34,177 :INFO :******** Switch to the Notes' Iframe********
+2025-10-19 12:17:34,304 :INFO :******** Enter the Notes********
+2025-10-19 12:17:34,772 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-19 12:17:34,785 :INFO :******** Click the Date Field********
+2025-10-19 12:17:35,034 :INFO :******** Select the Date Month********
+2025-10-19 12:17:35,145 :INFO :******** Select the Date Year********
+2025-10-19 12:17:35,422 :INFO :******** Select the Date Number********
+2025-10-19 12:17:36,050 :INFO :******** Enter Number of Slots********
+2025-10-19 12:17:36,345 :INFO :******** Select the Live At Hour********
+2025-10-19 12:17:36,543 :INFO :******** Select the Live At Month********
+2025-10-19 12:17:36,688 :INFO :******** Select the Live At Year********
+2025-10-19 12:17:36,961 :INFO :******** Select the Live At Date********
+2025-10-19 12:17:38,516 :INFO :******** Select the Live At Hour********
+2025-10-19 12:17:39,031 :INFO :******** Click the Close At Field********
+2025-10-19 12:17:39,178 :INFO :******** Select the Close At Month********
+2025-10-19 12:17:39,358 :INFO :******** Select the Close At Year********
+2025-10-19 12:17:39,720 :INFO :******** Select the Close At Date********
+2025-10-19 12:17:42,217 :INFO :******** Select the Close Hour********
+2025-10-19 12:17:42,451 :INFO :******** Click the Save Changes Button********
+2025-10-19 12:17:42,604 :INFO :******** Close the Browser********
+2025-10-19 12:19:09,290 :INFO :====== WebDriver manager ======
+2025-10-19 12:19:18,711 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:19:19,087 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:19:19,410 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-19 12:19:20,923 :INFO :****** Starting login ******
+2025-10-19 12:19:26,257 :INFO :******** Click the Home Button ********
+2025-10-19 12:19:31,086 :INFO :****** Login successful ******
+2025-10-19 12:19:31,086 :INFO :******** Verifying VCBCs Makeup Creation********
+2025-10-19 12:19:31,087 :INFO :******** Define the Job Driver********
+2025-10-19 12:19:31,092 :INFO :******** Click DFC Rotations Menu ********
+2025-10-19 12:19:31,351 :INFO :******** Click Create VCBCs Button********
+2025-10-19 12:19:32,105 :INFO :********Switch to the Create VCBCs Form********
+2025-10-19 12:19:32,112 :INFO :********Enter the Session Name********
+2025-10-19 12:19:32,653 :INFO :********Select the Session Type Makeup********
+2025-10-19 12:19:32,921 :INFO :******** Click the Course Field********
+2025-10-19 12:19:33,244 :INFO :******** Lookup Course********
+2025-10-19 12:19:33,496 :INFO :******** Select Course ********
+2025-10-19 12:19:33,733 :INFO :******** Switch to the Notes' Iframe********
+2025-10-19 12:19:33,870 :INFO :******** Enter the Notes********
+2025-10-19 12:19:34,236 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-19 12:19:34,245 :INFO :******** Click the Date Field********
+2025-10-19 12:19:34,488 :INFO :******** Select the Date Month********
+2025-10-19 12:19:34,630 :INFO :******** Select the Date Year********
+2025-10-19 12:19:34,986 :INFO :******** Select the Date Number********
+2025-10-19 12:19:35,691 :INFO :******** Enter Number of Slots********
+2025-10-19 12:19:36,045 :INFO :******** Select the Live At Hour********
+2025-10-19 12:19:36,360 :INFO :******** Select the Live At Month********
+2025-10-19 12:19:36,693 :INFO :******** Select the Live At Year********
+2025-10-19 12:19:36,953 :INFO :******** Select the Live At Date********
+2025-10-19 12:19:38,077 :INFO :******** Select the Live At Hour********
+2025-10-19 12:24:14,717 :INFO :====== WebDriver manager ======
+2025-10-19 12:24:24,016 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:24:24,514 :INFO :Get LATEST chromedriver version for google-chrome
+2025-10-19 12:24:24,855 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\141.0.7390.78\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-19 12:24:26,523 :INFO :****** Starting login ******
+2025-10-19 12:24:29,058 :INFO :******** Click the Home Button ********
+2025-10-19 12:24:34,735 :INFO :****** Login successful ******
+2025-10-19 12:24:34,736 :INFO :******** Verifying VCBCs Makeup Creation********
+2025-10-19 12:24:34,736 :INFO :******** Define the Job Driver********
+2025-10-19 12:24:34,740 :INFO :******** Click DFC Rotations Menu ********
+2025-10-19 12:24:34,980 :INFO :******** Click Create VCBCs Button********
+2025-10-19 12:24:35,868 :INFO :********Switch to the Create VCBCs Form********
+2025-10-19 12:24:35,872 :INFO :********Enter the Session Name********
+2025-10-19 12:24:36,403 :INFO :********Select the Session Type Makeup********
+2025-10-19 12:24:36,667 :INFO :******** Click the Course Field********
+2025-10-19 12:24:36,962 :INFO :******** Lookup Course********
+2025-10-19 12:24:37,214 :INFO :******** Select Course ********
+2025-10-19 12:24:37,474 :INFO :******** Switch to the Notes' Iframe********
+2025-10-19 12:24:37,623 :INFO :******** Enter the Notes********
+2025-10-19 12:24:38,076 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-10-19 12:24:38,091 :INFO :******** Click the Date Field********
+2025-10-19 12:24:38,293 :INFO :******** Select the Date Month********
+2025-10-19 12:24:38,401 :INFO :******** Select the Date Year********
+2025-10-19 12:24:38,735 :INFO :******** Select the Date Number********
+2025-10-19 12:24:39,336 :INFO :******** Enter Number of Slots********
+2025-10-19 12:24:39,609 :INFO :******** Select the Live At Hour********
+2025-10-19 12:24:39,748 :INFO :******** Select the Live At Month********
+2025-10-19 12:24:40,063 :INFO :******** Select the Live At Year********
+2025-10-19 12:24:40,469 :INFO :******** Select the Live At Date********
+2025-10-19 12:24:42,264 :INFO :******** Select the Live At Hour********
+2025-10-19 12:24:42,863 :INFO :******** Click the Close At Field********
+2025-10-19 12:24:43,146 :INFO :******** Select the Close At Month********
+2025-10-19 12:24:43,362 :INFO :******** Select the Close At Year********
+2025-10-19 12:24:43,836 :INFO :******** Select the Close At Date********
+2025-10-19 12:24:46,244 :INFO :******** Select the Close Hour********
+2025-10-19 12:24:46,490 :INFO :******** Click the Save Changes Button********

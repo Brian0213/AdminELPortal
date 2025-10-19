@@ -294,6 +294,9 @@ class VCBCPage:
     def btnEditVcbc(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Edit']"))).click()
 
+    def fromVCBCEditor(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="frmVCBCEditor"]/div[6]/div[3]/input[2]'))).click()
+
     def pickDate(self, driver, date_value):
         alldates = driver.find_elements(By.XPATH, '//div[@class="dayContainer"]//span')
         for datepick in alldates:
