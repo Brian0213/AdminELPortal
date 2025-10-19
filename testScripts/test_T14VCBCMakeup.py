@@ -75,9 +75,6 @@ class Test_Create_VCBC_Makeup(BaseTest):
         self.logger.info("******** Select the Live At Hour********")
         self.vcb.liveHour(self.livehour)
         self.vcb.fromVCBCEditor()
-        # self.elportal.find_element(By.XPATH, '//*[@id="frmVCBCEditor"]/div[6]/div[3]/input[2]').click()
-        # self.logger.info("******** Select Live At AM/PM*******")
-        # self.vcb.selLiveAM()
         self.logger.info("******** Click the Close At Field********")
         self.vcb.closeAt()
         self.logger.info("******** Select the Close At Month********")
@@ -104,6 +101,13 @@ class Test_Create_VCBC_Makeup(BaseTest):
 
 
 
+
+
+
+
+        # self.elportal.find_element(By.XPATH, '//*[@id="frmVCBCEditor"]/div[6]/div[3]/input[2]').click()
+        # self.logger.info("******** Select Live At AM/PM*******")
+        # self.vcb.selLiveAM()
 
 
 

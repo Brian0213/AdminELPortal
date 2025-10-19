@@ -97,7 +97,7 @@ class Test_Scheduling(BaseTest):
         self.dfc.clickSaveCloseBtn()
         time.sleep(5)
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Create a Rotation Test is Successful********")
 
 

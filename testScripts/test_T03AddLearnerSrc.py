@@ -44,7 +44,7 @@ class Test_Login_ElPortal(BaseTest):
         self.logger.info("******** Click the Save & Close Button********")
         self.dfc.clickSaveCloseBtn()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Add Learner by Search Test is Successful********")
 
 

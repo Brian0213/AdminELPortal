@@ -35,7 +35,7 @@ class Test_Student_Assign_Site(BaseTest):
         self.prac.pickDate(self.elportal, '22')
         self.prac.fieldToDate()
         self.prac.pickDate(self.elportal, '30')
-        # time.sleep(3)
         time.sleep(3)
+        self.elportal.quit()
 
 

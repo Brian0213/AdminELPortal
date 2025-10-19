@@ -42,7 +42,7 @@ class Test_Login_ElPortal(BaseTest):
         self.logger.info("******** Assert Page Title ********")
         if act_title == "EL Portal - Nightingale College":
             assert True
-            self.elportal.close()
+            self.elportal.quit()
         else:
             self.elportal.save_screenshot("/Users/OluwasegunOjeyinka/PycharmProjects/Edu/Screenshots/Failed.png")
             self.elportal.close()

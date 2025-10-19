@@ -49,5 +49,5 @@ class Test_Create_SOFES(BaseTest):
         self.dfc.sofeSaveClose()
         time.sleep(5)
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Create a SOFEs Test is Successful********")

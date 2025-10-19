@@ -45,7 +45,7 @@ class Test_Edit_VCBC_Makeup(BaseTest):
         self.logger.info("******** Click the Save Changes Button********")
         self.vcb.vcbcSaveChanges()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********MakeUp VCBCs Creation Test is Successful********")
 
 

@@ -64,8 +64,16 @@ class PracticumPage:
     def btnAssign(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Assign']"))).click()
 
+    def learnerAssignSite(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@class='btn-sm bg-white border border-primary-400 hover:border-gray-700 text-primary-800']"))).click()
 
+    def fieldLearnerSite(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//body/div[4]/div[2]/div/mbody/div/div[1]/div"))).click()
 
+    def enterLearnerSite(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@role='listbox']//div[@data-value='117']"))).click()
 
+    def enterExpectedHours(self, hour):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@role='listbox']//div[@data-value='117']"))).send_keys(hour)
 
 

@@ -56,7 +56,7 @@ class Test_VCBC_FacultySchedule(BaseTest):
         self.logger.info("********Click the Stop Impersonate Button ********")
         self.vcb.btnStop()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********VCBC Add Faculty Schedule Test is Successful********")
 
 

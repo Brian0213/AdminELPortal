@@ -31,7 +31,7 @@ class Test_Publish_VCBC_to_Faculty(BaseTest):
         self.logger.info("******** Click the Publish Success Modal********")
         self.vcb.vcbcPubSuccess()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********VCBC Publish to Faculty Test is Successful********")
 
 

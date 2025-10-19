@@ -87,7 +87,7 @@ class Test_Create_VCBC_Regular(BaseTest):
         self.logger.info("******** Click the Save Changes Button********")
         self.vcb.vcbcSaveChanges()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Regular VCBCs Creation Test is Successful********")
 
 

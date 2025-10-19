@@ -65,7 +65,7 @@ class Test_Site_Adhoc_Learner_Task(BaseTest):
         self.logger.info("******** Click the Save and Close Button********")
         self.dfc.btnSaveClose()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Edit Site Test is Successful********")
 
 

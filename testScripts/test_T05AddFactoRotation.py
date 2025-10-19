@@ -69,7 +69,7 @@ class Test_AddFaculty(BaseTest):
         self.logger.info("******** Click the Save & Close Button********")
         self.dfc.clickSaveCloseBtn()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Add Faculty to Rotation Test is Successful********")
 
 

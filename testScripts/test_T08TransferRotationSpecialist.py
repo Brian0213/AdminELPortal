@@ -33,7 +33,7 @@ class Test_Transfer_Rotation(BaseTest):
         self.dfc.transferRotationSpec()
         self.dfc.btnTransferClose()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Start Coordination Test is Successful********")
 
 

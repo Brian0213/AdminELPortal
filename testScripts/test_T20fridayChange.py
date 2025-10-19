@@ -51,15 +51,15 @@ class Test_Create_VCBC_Regular(BaseTest):
 
         # Live At
         self.vcb.liveAt()
-        self.vcb.liveAtSept()
+        self.vcb.liveAtOct()
         self.vcb.liveAtYear(self.year)
-        self.vcb.pickDate(self.elportal, '13')
+        self.vcb.pickDate(self.elportal, '21')
         self.vcb.liveHour(self.livehour)
         self.vcb.selLiveAM()
 
         # Close At
         self.vcb.closeAt()
-        self.vcb.closeAtSep()
+        self.vcb.closeAtOct()
         self.vcb.closeAtYear(self.year)
         self.vcb.pickDate(self.elportal, '21')
         self.vcb.closeHour(self.closehour)
@@ -73,6 +73,6 @@ class Test_Create_VCBC_Regular(BaseTest):
 
         self.vcb.vcbcSaveChanges()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********MakeUp VCBCs Creation Test is Successful********")
 

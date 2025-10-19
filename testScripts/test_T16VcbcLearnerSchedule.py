@@ -39,6 +39,7 @@ class Test_VCBC_FacultySchedule(BaseTest):
         self.vcb.impersonateMyDFC()
         self.logger.info("********Click the Stop Impersonate Button ********")
         self.vcb.btnStop()
+        self.elportal.quit()
 
 
 

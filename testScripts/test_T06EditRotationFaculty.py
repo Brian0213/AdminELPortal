@@ -67,7 +67,7 @@ class Test_Edit_Rotation_Faculty(BaseTest):
         self.dfc.clickSaveCloseBtn()
 
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Edit Faculty Schedule Test is Successful********")
 
 

@@ -33,7 +33,7 @@ class Test_Publish_to_Faculty_Rotation(BaseTest):
         self.dfc.publishtoFaculty()
         self.logger.info("******** Click the Publish Success Modal********")
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Publish to Faculty Test is Successful********")
 
 

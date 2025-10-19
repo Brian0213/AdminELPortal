@@ -40,7 +40,7 @@ class Test_VCBC_AddLearnerBySearch(BaseTest):
         self.logger.info("******** Click the Add Learner Button********")
         self.vcb.btnFormAddLearner()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********VCBC Add Learner Test is Successful********")
 
 

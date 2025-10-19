@@ -56,7 +56,7 @@ class Test_Edit_Sites(BaseTest):
         self.logger.info("******** Click the Assign and Close Button********")
         self.dfc.btnAssignandClose()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Edit Site Test is Successful********")
 
         # READY

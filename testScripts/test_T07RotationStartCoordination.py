@@ -29,7 +29,7 @@ class Test_Start_Coordination_Rotation(BaseTest):
         self.logger.info("******** Click the Start Coordination Button********")
         self.dfc.startCoordination()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Start Coordination Test is Successful********")
 
 

@@ -38,7 +38,7 @@ class Test_ImpersonateLearner(BaseTest):
         self.logger.info("********Click the Stop Button to End Impersonation********")
         self.elp.stopImpersonate()
         self.logger.info("******** Close the Browser********")
-        self.elportal.close()
+        self.elportal.quit()
         self.logger.info("**********Impersonate a Learner  is Successful********")
 
 
