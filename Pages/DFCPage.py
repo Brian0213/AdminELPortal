@@ -284,7 +284,6 @@ class DfcPage:
     def learnSLT3(self):
        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-7-opt-4"]'))).click()
 
-
     def learnSRC(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//div[@data-value="1755902732"]'))).click()
 
@@ -365,7 +364,10 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@allow_scroll='yes']"))).click()
 
     def editFaculty(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc1030']//button[@hx-target='body']//*[name()='svg']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc2144']//button[@hx-target='body']"))).click()
+
+    def editFaculty1(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc2143']//button[@hx-target='body']"))).click()
 
     def publishtoFaculty(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Publish to Faculty']"))).click()
@@ -386,13 +388,13 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='ts-wrapper multi']//div[@class='ts-control']"))).click()
 
     def taskBadgePhoto(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='task-opt-20']"))).click()  #Badge Photo
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@data-value='20']"))).click()  #Badge Photo
 
     def taskBringChildtoWork(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='task-opt-11']"))).click()  #Bring Child to Work day
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@data-value='22']"))).click()  #Bring Child to Work day
 
     def taskBringCovidCard(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='task-opt-9']"))).click()  #Bring Covid Card
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@data-value='15']"))).click()  #Bring Covid Card
 
     def fieldType(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='ts-wrapper single required']//div[@class='ts-control']"))).click()

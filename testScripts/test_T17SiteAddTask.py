@@ -12,7 +12,7 @@ from utility.customLogger import LogGen
 
 class Test_Edit_Sites(BaseTest):
 
-    site  = "St Nicholas Medical Center"
+    site  = "Ronald Reagan UCLA Medical Center"
     # siteaddress = "12 Nicholas Drive North Alpine, AK 99903"
     # extnote = "Find the right care for you"
     # intnote = "Find the right care for you"

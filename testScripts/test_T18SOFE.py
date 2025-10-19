@@ -12,9 +12,9 @@ from utility.customLogger import LogGen
 class Test_Create_SOFES(BaseTest):
 
 
-    sofename  = "Salt Lake City"
-    sofestate = "UT"
-    sofenotes = "Testing_Notes"
+    sofename  = "Pierre"
+    sofestate = "SD"
+    sofenotes = "New_Entry"
 
     @pytest.mark.order(1)
     def test_login(self, setup):

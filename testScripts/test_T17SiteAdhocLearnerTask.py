@@ -10,7 +10,7 @@ from testScripts.base_test import BaseTest
 
 class Test_Site_Adhoc_Learner_Task(BaseTest):
 
-    site  = "St Nicholas Medical Center"
+    site  = "Ronald Reagan UCLA Medical Center"
     name = "Preceptor Welcome Session"
     note = "Preceptor Discussion"
     dline = "4"

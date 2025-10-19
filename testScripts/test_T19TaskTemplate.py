@@ -12,8 +12,8 @@ from utility.customLogger import LogGen
 class Test_Create_SOFES(BaseTest):
 
 
-    sofename  = "Topeka"
-    sofestate = "KS"
+    sofename  = "Montgomery"
+    sofestate = "AL"
     sofenotes = "New Entry"
 
 

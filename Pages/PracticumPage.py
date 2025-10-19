@@ -61,6 +61,10 @@ class PracticumPage:
     def fieldToDate(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "// mbody // div[2] // input[2]"))).click()
 
+    def btnAssign(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Assign']"))).click()
+
+
 
 
 

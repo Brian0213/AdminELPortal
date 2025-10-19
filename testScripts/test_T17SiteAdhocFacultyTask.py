@@ -8,7 +8,7 @@ from testScripts.base_test import BaseTest
 
 class Test_Site_Adhoc_Faculty_Task(BaseTest):
 
-    site  = "St Nicholas Medical Center"
+    site  = "Ronald Reagan UCLA Medical Center"
     name = "Practicum Preparation"
     note = "Practicum Learner and Preceptor Requirement"
     dline = "4"
