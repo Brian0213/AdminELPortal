@@ -184,7 +184,7 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@type='submit']"))).click()
 
     def selectRotation(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Child Health Awareness']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='First Aid Preparation']"))).click()
 
     def addDay(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Add Day']"))).click()
@@ -226,7 +226,7 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='9']"))).click()
 
     def dFCMonthNov(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='10']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='11']"))).click()
 
     def addDFCYear(self, year):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/div/input"))).clear()
@@ -268,6 +268,9 @@ class DfcPage:
 
     def startCoordination(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Start Coordination']"))).click()
+
+    def continueStartCoordination(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Continue']"))).click()
 
     def addLearner(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Add Learner']"))).click()

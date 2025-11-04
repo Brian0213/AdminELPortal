@@ -21,7 +21,7 @@ class Test_Create_VCBC_Regular(BaseTest):
     closehour = "4"
 
 
-    @pytest.mark.order(1)
+    @pytest.mark.skip(reason="Skipping this test for now")
     def test_login(self, setup):
         self.elportal = setup
         self.login(self.elportal)

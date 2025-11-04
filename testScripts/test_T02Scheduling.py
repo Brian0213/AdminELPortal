@@ -10,14 +10,14 @@ from testScripts.base_test import BaseTest
 
 class Test_Scheduling(BaseTest):
 
-    rotatename = "Child Health Awareness"
+    rotatename = "First Aid Preparation"
     month = "November"
     year = "2025"
     starthour = "9"
     startminute = "30"
     endhour = "5"
-    extnote = "Child Health Notes"
-    intnote = "Child Health Awareness Orientation"
+    extnote = "First Aid Notes"
+    intnote = "First Aid Preparation Orientation"
 
 
     @pytest.mark.order(1)
@@ -95,7 +95,7 @@ class Test_Scheduling(BaseTest):
         self.elportal.switch_to.default_content()
         self.logger.info("******** Click the Save & Close Button********")
         self.dfc.clickSaveCloseBtn()
-        time.sleep(5)
+        time.sleep(3)
         self.logger.info("******** Close the Browser********")
         self.elportal.quit()
         self.logger.info("**********Create a Rotation Test is Successful********")

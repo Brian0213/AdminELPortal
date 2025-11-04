@@ -26,7 +26,7 @@ class Test_Allocate_Slots(BaseTest):
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.vcb.clickVCBCMgt()
         self.logger.info("******** Select the VCBC********")
-        self.vcb.singleVCBC()
+        self.vcb.singleVCBC()                               # Update the VCBC item before execution
         self.logger.info("******** Click Allocate Slots Button ********")
         self.vcb.allocateSlotBtn()
         self.logger.info("********Switch to the Allocate Slots Modal********")

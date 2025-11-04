@@ -201,7 +201,7 @@ class VCBCPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Close']"))).click()
 
     def singleVCBC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[5]/td[6]/a[1]/span[1]"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[8]/td[6]/a[1]/span[1]"))).click()
 
     def allocateSlotBtn(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Assign Slots']"))).click()
@@ -296,6 +296,36 @@ class VCBCPage:
 
     def fromVCBCEditor(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="frmVCBCEditor"]/div[6]/div[3]/input[2]'))).click()
+
+    def btnLearnerVCBC(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[3]/a[1]/div[1]/div[1]"))).click()
+
+    def learnerSchedule(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@hx-get='/vcbc/40/schedule?old_slot=3675']"))).click()
+
+    def learnerReSchedule(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@hx-get='/vcbc/40/schedule?old_slot=3675']"))).click()
+
+    def fieldLearnerSlot(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='ts-control']"))).click()
+
+    def learnerSlot1(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='slot-opt-1']"))).click()
+
+    def learnerSlot2(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='slot-opt-2']"))).click()
+
+    def learnerSlot3(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='slot-opt-3']"))).click()
+
+    def learnerSlotSchedule(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@form='frmSchedule']"))).click()
+
+    def learnerSlotReSchedule(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@form='frmSchedule']"))).click()
+
+    def learnerSlotCancel(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Cancel']"))).click()
 
     def pickDate(self, driver, date_value):
         alldates = driver.find_elements(By.XPATH, '//div[@class="dayContainer"]//span')
