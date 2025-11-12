@@ -32,6 +32,7 @@ class Test_Create_VCBC_Regular(BaseTest):
         parentwindowid = windowsIDs[0]
         self.logger.info("******** Click VCBC Management Menu ********")
         self.vcb.clickVCBCMgt()
+        time.sleep(3)
         self.logger.info("******** Click Create VCBCs Button********")
         self.vcb.createVCBC()
         self.logger.info("********Switch to the Create VCBCs Form********")
