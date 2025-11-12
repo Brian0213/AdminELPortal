@@ -30,9 +30,9 @@ class Test_Create_VCBC_Regular(BaseTest):
         self.vcb = VCBCPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
+        time.sleep(3)
         self.logger.info("******** Click VCBC Management Menu ********")
         self.vcb.clickVCBCMgt()
-        time.sleep(3)
         self.logger.info("******** Click Create VCBCs Button********")
         self.vcb.createVCBC()
         self.logger.info("********Switch to the Create VCBCs Form********")
