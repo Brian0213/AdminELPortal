@@ -1,0 +1,1 @@
+{"bcd651095853da6dba1a58cf5cdace9b":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"ad0cc390e5b58e8","status":"broken","statusDetails":"selenium.common.exceptions.TimeoutException: Message:","time":{"start":1762968906978,"stop":1762968924055,"duration":17077}}]}}

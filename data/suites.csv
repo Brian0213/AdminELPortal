@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","17077","test_login","","Wed Nov 12 17:35:06 UTC 2025","broken","Wed Nov 12 17:35:24 UTC 2025","Test_Create_VCBC_Regular","test_T13VCBCRegular","",""
