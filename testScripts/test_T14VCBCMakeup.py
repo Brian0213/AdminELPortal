@@ -28,9 +28,12 @@ class Test_Create_VCBC_Makeup(BaseTest):
         self.login(self.elportal)
         self.logger.info("******** Verifying VCBCs Makeup Creation********")
         self.logger.info("******** Define the Job Driver********")
+        self.lpg = LoginPage(self.elportal)
         self.vcb = VCBCPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
+        self.lpg.semesterNav()
+        self.lpg.semesSpring26()
         act = ActionChains(self.elportal)
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.vcb.clickVCBCMgt()

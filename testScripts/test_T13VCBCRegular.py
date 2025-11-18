@@ -27,10 +27,13 @@ class Test_Create_VCBC_Regular(BaseTest):
         self.login(self.elportal)
         self.logger.info("******** Verifying Regular VCBCs Creation********")
         self.logger.info("******** Define the Job Driver********")
+        self.lpg = LoginPage(self.elportal)
         self.vcb = VCBCPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
         time.sleep(3)
+        self.lpg.semesterNav()
+        self.lpg.semesSpring26()
         self.logger.info("******** Click VCBC Management Menu ********")
         self.vcb.clickVCBCMgt()
         # self.elportal.find_element(By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[4]').click()

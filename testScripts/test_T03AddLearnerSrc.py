@@ -10,9 +10,9 @@ from testScripts.base_test import BaseTest
 from utility.readProperties import ReadConfig
 from utility.customLogger import LogGen
 
-class Test_Login_ElPortal(BaseTest):
+class Test_Add_Learner_by_Search(BaseTest):
 
-    learner = "Lelia"
+    learner = "Abdiel"
 
     @pytest.mark.order(1)
     def test_login(self, setup):
@@ -21,8 +21,11 @@ class Test_Login_ElPortal(BaseTest):
         self.logger.info("******** Verifying Add Learner by Search********")
         self.logger.info("******** Define the Job Driver********")
         self.dfc = DfcPage(self.elportal)
+        self.lpg = LoginPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
+        self.lpg.semesterNav()
+        self.lpg.semesSpring26()
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.dfc.clickDFC()
         self.logger.info("******** Click Scheduling menu********")

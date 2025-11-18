@@ -19,8 +19,11 @@ class Test_AddLearner_Select(BaseTest):
         self.logger.info("******** Verifying Add Learner by Selection********")
         self.logger.info("******** Define the Job Driver********")
         self.dfc = DfcPage(self.elportal)
+        self.lpg = LoginPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
+        self.lpg.semesterNav()
+        self.lpg.semesSpring26()
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.dfc.clickDFC()
         self.logger.info("******** Click Scheduling menu********")

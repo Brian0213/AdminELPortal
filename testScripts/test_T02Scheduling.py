@@ -62,7 +62,7 @@ class Test_Scheduling(BaseTest):
         self.logger.info("******** Select Month********")
         self.dfc.selMonth(self.month)
         self.logger.info("******** Select Day********")
-        self.dfc.pickDate(self.elportal, '14')
+        self.dfc.pickDate(self.elportal, '22')
         self.logger.info("******** Click the Live Date Calendar********")
         self.dfc.liveDate()
         self.logger.info("******** Select Live Date Month********")
