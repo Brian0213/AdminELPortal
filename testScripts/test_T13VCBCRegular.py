@@ -12,9 +12,9 @@ from utility.customLogger import LogGen
 
 class Test_Create_VCBC_Regular(BaseTest):
 
-    sessionname  = "Capstone Competency Review"
+    sessionname  = "Nurses in Practice"
     coursepick = "con"
-    description = "Capstone Competency Introduction"
+    description = "Nurses in Practice Workshop: Transition from learners to professionals"
     slot = "3"
     year ="2025"
     livehour = "7"
@@ -32,6 +32,7 @@ class Test_Create_VCBC_Regular(BaseTest):
         parentwindowid = windowsIDs[0]
         self.logger.info("******** Click VCBC Management Menu ********")
         self.vcb.clickVCBCMgt()
+        # self.elportal.find_element(By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[4]').click()
         self.logger.info("******** Click Create VCBCs Button********")
         self.vcb.createVCBC()
         self.logger.info("********Switch to the Create VCBCs Form********")
@@ -57,7 +58,7 @@ class Test_Create_VCBC_Regular(BaseTest):
         self.logger.info("******** Select the Live At Hour********")
         self.vcb.liveAt()
         # self.logger.info("******** Select the Live At Month********")
-        self.vcb.liveAtOct()
+        self.vcb.liveAtNov()
         # self.logger.info("******** Select the Live At Year********")
         # self.vcb.liveAtYear(self.year)
         self.logger.info("******** Select the Live At Date********")
@@ -69,21 +70,29 @@ class Test_Create_VCBC_Regular(BaseTest):
         self.logger.info("******** Click the Close At Field********")
         self.vcb.closeAt()
         self.logger.info("******** Select the Close At Month********")
-        self.vcb.closeAtOct()
+        self.vcb.closeAtNov()
         # self.logger.info("******** Select the Close At Year********")
         # self.vcb.closeAtYear(self.year)
         self.logger.info("******** Select the Close At Number********")
-        self.vcb.pickDate(self.elportal, '28')
+        self.vcb.pickDate(self.elportal, '3')
         self.logger.info("******** Select the Close Hour********")
         self.vcb.closeHour(self.closehour)
         self.logger.info("******** Click the Date Field********")
         self.vcb.dateField()
         self.logger.info("******** Select the Date Month********")
-        self.vcb.dateNov()
+        self.vcb.dateDec()
         self.logger.info("******** Select the Date Year********")
         self.vcb.dateYear(self.year)
         self.logger.info("******** Select the Date Number********")
-        self.vcb.pickDate(self.elportal, '10')
+        self.vcb.pickDate(self.elportal, '7')
+        self.logger.info("******** Click the Date Field********")
+        self.vcb.dateField()
+        self.logger.info("******** Select the Date Month********")
+        self.vcb.dateDec()
+        self.logger.info("******** Select the Date Year********")
+        self.vcb.dateYear(self.year)
+        self.logger.info("******** Select the Date Number********")
+        self.vcb.pickDate(self.elportal, '8')
         self.logger.info("******** Click the Save Changes Button********")
         self.vcb.vcbcSaveChanges()
         self.logger.info("******** Close the Browser********")

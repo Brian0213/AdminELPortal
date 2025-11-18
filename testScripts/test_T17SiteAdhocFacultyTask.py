@@ -28,7 +28,7 @@ class Test_Site_Adhoc_Faculty_Task(BaseTest):
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
         self.logger.info("******** Click DFC Rotations Menu ********")
-        self.dfc.clickDFC()
+        self.dfc.clickSetupTab()
         self.logger.info("******** Click Sites menu********")
         self.dfc.clickSites()
         self.logger.info("******** Search for a Site********")

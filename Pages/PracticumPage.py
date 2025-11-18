@@ -18,7 +18,7 @@ class PracticumPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@name='password']"))).send_keys(setpassword)
 
     def clickPracticumTab(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[6]/a/div'))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/div/div/ul/li[2]/a'))).click()
 
     def btnBulkSpecialistAssign(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@class='btn bg-gray-900 text-gray-100 hover:bg-gray-700']"))).click()
@@ -76,4 +76,9 @@ class PracticumPage:
     def enterExpectedHours(self, hour):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@role='listbox']//div[@data-value='117']"))).send_keys(hour)
 
+    def tabGraduate(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Graduate']"))).click()
+
+    def tabUnderGrad(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Undergrad']"))).click()
 

@@ -12,7 +12,7 @@ from testScripts.base_test import BaseTest
 
 class Test_Create_VCBC_Makeup(BaseTest):
 
-    sessionname  = "Mental Health Nursing"
+    sessionname  = "Child Mortality Rate"
     coursepick = "an"
     description = "Find the right care for you"
     slot = "3"
@@ -57,7 +57,7 @@ class Test_Create_VCBC_Makeup(BaseTest):
         self.logger.info("******** Click the Date Field********")
         self.vcb.dateField()
         self.logger.info("******** Select the Date Month********")
-        self.vcb.dateNov()
+        self.vcb.dateDec()
         self.logger.info("******** Select the Date Year********")
         self.vcb.dateYear(self.year)
         self.logger.info("******** Select the Date Number********")

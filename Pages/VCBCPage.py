@@ -8,7 +8,7 @@ class VCBCPage:
         self.elportal = elportal
 
     def clickVCBCMgt(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[4]/a/div'))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[3]/a/div'))).click()
 
     def createVCBC(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Create VCBC']"))).click()
@@ -72,6 +72,13 @@ class VCBCPage:
     def liveAtOct(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[6]/div[1]/div/div/select/option[@value='9']"))).click()
 
+    def liveAtNov(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[6]/div[1]/div/div/select/option[@value='10']"))).click()
+
+    def liveAtDec(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[6]/div[1]/div/div/select/option[@value='11']"))).click()
+
+
     def liveAtMonth(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//span[@class='flatpickr-next-month']"))).click()
 
@@ -122,7 +129,25 @@ class VCBCPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[6]/div[1]/div/div/select/option[@value='2']"))).click()
 
     def closeAtOct(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[7]/div[1]/div/div/select/option[@value='10']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[7]/div[1]/div/div/select/option[@value='9']"))).click()
+
+    def closeAtNov(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[7]/div[1]/div/div/select/option[@value='11']"))).click()
+
+    def closeAtDec(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[7]/div[1]/div/div/select/option[@value='12']"))).click()
+
+    def closeAtJan(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[7]/div[1]/div/div/select/option[@value='1']"))).click()
+
+    def closeAtFeb(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[7]/div[1]/div/div/select/option[@value='2']"))).click()
+
+    def closeAtApr(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[7]/div[1]/div/div/select/option[@value='3']"))).click()
+
+    def closeAtMay(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[7]/div[1]/div/div/select/option[@value='4']"))).click()
 
     def closeAtMonth(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//span[@class='flatpickr-next-month']"))).click()
@@ -163,6 +188,9 @@ class VCBCPage:
     def dateNov(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@class='flatpickr-monthDropdown-months']/option[@value='10']"))).click()
 
+    def dateDec(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@class='flatpickr-monthDropdown-months']/option[@value='11']"))).click()
+
     def dateYear(self, year):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='numInputWrapper']//input[@aria-label='Year']"))).clear()
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='numInputWrapper']//input[@aria-label='Year']"))).send_keys(year)
@@ -200,8 +228,17 @@ class VCBCPage:
     def vcbcPubSuccess(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Close']"))).click()
 
-    def singleVCBC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[8]/td[6]/a[1]/span[1]"))).click()
+    def regularVCBC(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[13]/td[6]/a[1]/span[1]"))).click()
+
+    def makeUpVCBC(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[2]/td[6]/a[1]/span[1]"))).click()
+
+    def tabMakeUp(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Make Up']"))).click()
+
+    def tabRegular(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Regular']"))).click()
 
     def allocateSlotBtn(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Assign Slots']"))).click()

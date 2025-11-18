@@ -30,7 +30,7 @@ class Test_Create_SOFES(BaseTest):
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
         self.logger.info("******** Click DFC Rotations Menu ********")
-        self.dfc.clickDFC()
+        self.dfc.clickSetupTab()
         self.logger.info("******** Click SOFEs menu********")
         self.dfc.clickSOFE()
         self.logger.info("******** Click Create SOFEs Button********")
