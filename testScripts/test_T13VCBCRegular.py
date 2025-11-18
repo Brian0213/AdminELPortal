@@ -30,6 +30,7 @@ class Test_Create_VCBC_Regular(BaseTest):
         self.vcb = VCBCPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
+        time.sleep(3)
         self.logger.info("******** Click VCBC Management Menu ********")
         self.vcb.clickVCBCMgt()
         # self.elportal.find_element(By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[4]').click()
