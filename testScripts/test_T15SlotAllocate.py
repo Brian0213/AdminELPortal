@@ -20,13 +20,16 @@ class Test_Allocate_Slots(BaseTest):
         self.login(self.elportal)
         self.logger.info("******** Verifying Slots Allocation********")
         self.logger.info("******** Define the Job Driver********")
+        self.lpg = LoginPage(self.elportal)
         self.vcb = VCBCPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
+        self.lpg.semesterNav()
+        self.lpg.semesSpring26()
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.vcb.clickVCBCMgt()
         self.logger.info("******** Select the VCBC********")
-        self.vcb.singleVCBC()                               # Update the VCBC item before execution
+        self.vcb.regularVCBC()                             # Update the VCBC item before execution
         self.logger.info("******** Click Allocate Slots Button ********")
         self.vcb.allocateSlotBtn()
         self.logger.info("********Switch to the Allocate Slots Modal********")
@@ -39,9 +42,9 @@ class Test_Allocate_Slots(BaseTest):
         self.vcb.allocateSlots(self.slot)
         self.logger.info("******** Click the Allocate Button********")
         self.vcb.allocateButton()
-        self.logger.info("******** Close the Browser********")
-        self.elportal.quit()
-        self.logger.info("**********Allocate Slots Test is Successful********")
+        # self.logger.info("******** Close the Browser********")
+        # self.elportal.quit()
+        # self.logger.info("**********Allocate Slots Test is Successful********")
 
 
 

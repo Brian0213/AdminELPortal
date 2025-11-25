@@ -229,10 +229,10 @@ class VCBCPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Close']"))).click()
 
     def regularVCBC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[13]/td[6]/a[1]/span[1]"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[2]/td[6]/a[1]/span[1]"))).click()
 
     def makeUpVCBC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[2]/td[6]/a[1]/span[1]"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//td[@class='px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap w-px !w-fit']//a[@class='inline-flex items-center text-center text-sm text-primary-500 hover:text-accent-600 font-medium p-1 --templ-css-class-unknown-type']"))).click()
 
     def tabMakeUp(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Make Up']"))).click()

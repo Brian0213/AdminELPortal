@@ -24205,3 +24205,333 @@
 2025-11-18 11:51:22,307 :INFO :******** Select the Close Hour********
 2025-11-18 11:51:22,656 :INFO :******** Click the Save Changes Button********
 2025-11-18 11:51:22,877 :INFO :******** Close the Browser********
+2025-11-21 10:05:07,335 :INFO :====== WebDriver manager ======
+2025-11-21 10:05:16,181 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:05:16,681 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:05:17,021 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:05:17,793 :INFO :WebDriver version 142.0.7444.175 selected
+2025-11-21 10:05:17,796 :INFO :Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-11-21 10:05:17,796 :INFO :About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-11-21 10:05:18,186 :INFO :Driver downloading response is 200
+2025-11-21 10:05:18,784 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:05:19,485 :INFO :Driver has been saved in cache [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175]
+2025-11-21 10:05:21,217 :INFO :****** Starting login ******
+2025-11-21 10:05:28,616 :INFO :******** Click the Home Button ********
+2025-11-21 10:05:31,648 :INFO :****** Login successful ******
+2025-11-21 10:05:31,648 :INFO :******** Verifying VCBCs Publish to Faculty Test********
+2025-11-21 10:05:31,648 :INFO :******** Define the Job Driver********
+2025-11-21 10:05:34,653 :INFO :******** Click DFC Rotations Menu ********
+2025-11-21 10:05:35,074 :INFO :******** Select the VCBC********
+2025-11-21 10:05:35,152 :INFO :******** Click the Publish to Faculty Button********
+2025-11-21 10:07:22,739 :INFO :====== WebDriver manager ======
+2025-11-21 10:07:30,252 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:07:39,493 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:07:39,817 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-21 10:07:41,268 :INFO :****** Starting login ******
+2025-11-21 10:07:44,625 :INFO :******** Click the Home Button ********
+2025-11-21 10:07:48,316 :INFO :****** Login successful ******
+2025-11-21 10:07:48,316 :INFO :******** Verifying VCBCs Publish to Faculty Test********
+2025-11-21 10:07:48,316 :INFO :******** Define the Job Driver********
+2025-11-21 10:07:51,909 :INFO :******** Click DFC Rotations Menu ********
+2025-11-21 10:07:52,256 :INFO :******** Select the VCBC********
+2025-11-21 10:07:52,349 :INFO :******** Click the Publish to Faculty Button********
+2025-11-21 10:07:52,542 :INFO :******** Click the Publish Success Modal********
+2025-11-21 10:09:35,063 :INFO :====== WebDriver manager ======
+2025-11-21 10:09:44,041 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:09:44,547 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:09:45,029 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-21 10:09:46,534 :INFO :****** Starting login ******
+2025-11-21 10:09:48,963 :INFO :******** Click the Home Button ********
+2025-11-21 10:09:57,818 :INFO :****** Login successful ******
+2025-11-21 10:09:57,819 :INFO :******** Verifying Regular VCBCs Creation********
+2025-11-21 10:09:57,819 :INFO :******** Define the Job Driver********
+2025-11-21 10:10:01,444 :INFO :******** Click VCBC Management Menu ********
+2025-11-21 10:10:01,712 :INFO :******** Click Create VCBCs Button********
+2025-11-21 10:10:02,316 :INFO :********Switch to the Create VCBCs Form********
+2025-11-21 10:10:02,319 :INFO :********Enter the Session Name********
+2025-11-21 10:10:02,884 :INFO :******** Click the Course Field********
+2025-11-21 10:10:02,945 :INFO :******** Select Course 1********
+2025-11-21 10:10:03,014 :INFO :******** Switch to the Notes' Iframe********
+2025-11-21 10:10:03,051 :INFO :******** Enter the Notes********
+2025-11-21 10:10:03,218 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-11-21 10:10:03,225 :INFO :******** Enter Number of Slots********
+2025-11-21 10:10:03,314 :INFO :******** Select the Live At Hour********
+2025-11-21 10:10:03,437 :INFO :******** Select the Live At Date********
+2025-11-21 10:10:03,991 :INFO :******** Select the Live At Hour********
+2025-11-21 10:10:04,104 :INFO :******** Select Live At AM/PM*******
+2025-11-21 10:10:04,104 :INFO :******** Click the Close At Field********
+2025-11-21 10:10:04,163 :INFO :******** Select the Close At Month********
+2025-11-21 10:10:04,209 :INFO :******** Select the Close At Number********
+2025-11-21 10:10:04,921 :INFO :******** Select the Close Hour********
+2025-11-21 10:10:05,019 :INFO :******** Click the Date Field********
+2025-11-21 10:10:05,076 :INFO :******** Select the Date Month********
+2025-11-21 10:10:05,147 :INFO :******** Select the Date Year********
+2025-11-21 10:10:05,354 :INFO :******** Select the Date Number********
+2025-11-21 10:10:05,503 :INFO :******** Click the Date Field********
+2025-11-21 10:10:05,585 :INFO :******** Select the Date Month********
+2025-11-21 10:10:05,613 :INFO :******** Select the Date Year********
+2025-11-21 10:10:05,712 :INFO :******** Select the Date Number********
+2025-11-21 10:10:05,809 :INFO :******** Click the Save Changes Button********
+2025-11-21 10:10:05,876 :INFO :******** Close the Browser********
+2025-11-21 10:10:53,121 :INFO :**********Regular VCBCs Creation Test is Successful********
+2025-11-21 10:26:36,564 :INFO :====== WebDriver manager ======
+2025-11-21 10:26:45,747 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:26:46,268 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:26:46,769 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-21 10:26:48,312 :INFO :****** Starting login ******
+2025-11-21 10:26:51,874 :INFO :******** Click the Home Button ********
+2025-11-21 10:26:56,774 :INFO :****** Login successful ******
+2025-11-21 10:26:56,775 :INFO :******** Verifying Slots Allocation********
+2025-11-21 10:26:56,775 :INFO :******** Define the Job Driver********
+2025-11-21 10:26:56,780 :INFO :******** Click DFC Rotations Menu ********
+2025-11-21 10:26:57,046 :INFO :******** Select the VCBC********
+2025-11-21 10:26:57,555 :INFO :******** Click Allocate Slots Button ********
+2025-11-21 10:26:57,974 :INFO :********Switch to the Allocate Slots Modal********
+2025-11-21 10:26:57,980 :INFO :******** Click the Select Faculty********
+2025-11-21 10:26:58,348 :INFO :******** Select A Faculty********
+2025-11-21 10:26:58,423 :INFO :******** Enter Slot Number********
+2025-11-21 10:26:58,855 :INFO :******** Click the Allocate Button********
+2025-11-21 10:26:59,075 :INFO :******** Close the Browser********
+2025-11-21 10:27:31,487 :INFO :**********Allocate Slots Test is Successful********
+2025-11-21 10:28:22,728 :INFO :====== WebDriver manager ======
+2025-11-21 10:28:32,302 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:28:47,837 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:28:48,253 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-21 10:28:49,777 :INFO :****** Starting login ******
+2025-11-21 10:28:54,084 :INFO :******** Click the Home Button ********
+2025-11-21 10:28:58,799 :INFO :****** Login successful ******
+2025-11-21 10:28:58,800 :INFO :******** Verifying Slots Allocation********
+2025-11-21 10:28:58,800 :INFO :******** Define the Job Driver********
+2025-11-21 10:28:58,804 :INFO :******** Click DFC Rotations Menu ********
+2025-11-21 10:28:59,018 :INFO :******** Select the VCBC********
+2025-11-21 10:28:59,540 :INFO :******** Click Allocate Slots Button ********
+2025-11-21 10:28:59,956 :INFO :********Switch to the Allocate Slots Modal********
+2025-11-21 10:28:59,964 :INFO :******** Click the Select Faculty********
+2025-11-21 10:29:00,418 :INFO :******** Select A Faculty********
+2025-11-21 10:29:00,488 :INFO :******** Enter Slot Number********
+2025-11-21 10:29:00,760 :INFO :******** Click the Allocate Button********
+2025-11-21 10:30:30,594 :INFO :====== WebDriver manager ======
+2025-11-21 10:30:39,864 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:30:47,434 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:30:47,762 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-21 10:30:49,306 :INFO :****** Starting login ******
+2025-11-21 10:30:52,637 :INFO :******** Click the Home Button ********
+2025-11-21 10:30:56,633 :INFO :****** Login successful ******
+2025-11-21 10:30:56,633 :INFO :******** Verifying Slots Allocation********
+2025-11-21 10:30:56,633 :INFO :******** Define the Job Driver********
+2025-11-21 10:30:57,923 :INFO :******** Click DFC Rotations Menu ********
+2025-11-21 10:30:58,148 :INFO :******** Select the VCBC********
+2025-11-21 10:30:58,500 :INFO :******** Click Allocate Slots Button ********
+2025-11-21 10:30:58,862 :INFO :********Switch to the Allocate Slots Modal********
+2025-11-21 10:30:58,867 :INFO :******** Click the Select Faculty********
+2025-11-21 10:30:59,193 :INFO :******** Select A Faculty********
+2025-11-21 10:30:59,267 :INFO :******** Enter Slot Number********
+2025-11-21 10:30:59,520 :INFO :******** Click the Allocate Button********
+2025-11-21 10:32:39,852 :INFO :====== WebDriver manager ======
+2025-11-21 10:32:49,113 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:32:50,090 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 10:32:50,630 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-21 10:32:52,312 :INFO :****** Starting login ******
+2025-11-21 10:32:58,329 :INFO :******** Click the Home Button ********
+2025-11-21 10:33:02,765 :INFO :****** Login successful ******
+2025-11-21 10:33:02,766 :INFO :******** Verifying Slots Allocation********
+2025-11-21 10:33:02,766 :INFO :******** Define the Job Driver********
+2025-11-21 10:33:03,670 :INFO :******** Click VCBC Management Menu ********
+2025-11-21 10:33:03,910 :INFO :******** Select the VCBC********
+2025-11-21 10:33:04,424 :INFO :******** Click Allocate Slots Button ********
+2025-11-21 10:33:04,760 :INFO :********Switch to the Allocate Slots Modal********
+2025-11-21 10:33:04,766 :INFO :******** Click the Select Faculty********
+2025-11-21 10:33:05,115 :INFO :******** Select A Faculty********
+2025-11-21 10:33:05,191 :INFO :******** Enter Slot Number********
+2025-11-21 10:33:05,481 :INFO :******** Click the Allocate Button********
+2025-11-21 10:33:05,665 :INFO :******** Close the Browser********
+2025-11-21 10:33:37,981 :INFO :**********Allocate Slots Test is Successful********
+2025-11-21 12:16:59,906 :INFO :====== WebDriver manager ======
+2025-11-21 12:17:09,626 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 12:17:10,275 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 12:17:10,682 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-21 12:17:12,328 :INFO :****** Starting login ******
+2025-11-21 12:17:15,980 :INFO :******** Click the Home Button ********
+2025-11-21 12:17:20,745 :INFO :****** Login successful ******
+2025-11-21 12:17:20,746 :INFO :******** Verifying Add Learner by Search********
+2025-11-21 12:17:20,746 :INFO :******** Define the Job Driver********
+2025-11-21 12:17:20,751 :INFO :******** Click VCBC Management Menu ********
+2025-11-21 12:17:20,961 :INFO :******** Select the VCBC Session********
+2025-11-21 12:17:21,536 :INFO :******** Click the Faculty Slot One********
+2025-11-21 12:17:21,887 :INFO :******** Click the Add Learner Button********
+2025-11-21 12:17:22,254 :INFO :********Switch to the Create a DFC Rotation Form********
+2025-11-21 12:17:22,259 :INFO :******** Click Learner Field's Dropdown********
+2025-11-21 12:17:22,707 :INFO :******** Click the Add Learner Button********
+2025-11-21 12:17:22,838 :INFO :******** Close the Browser********
+2025-11-21 12:17:55,252 :INFO :**********VCBC Add Learner Test is Successful********
+2025-11-21 12:19:08,820 :INFO :====== WebDriver manager ======
+2025-11-21 12:19:18,069 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 12:19:18,530 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 12:19:18,919 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-21 12:19:20,501 :INFO :****** Starting login ******
+2025-11-21 12:19:28,012 :INFO :******** Click the Home Button ********
+2025-11-21 12:19:32,903 :INFO :****** Login successful ******
+2025-11-21 12:19:32,903 :INFO :******** Verifying Add Learner by Search********
+2025-11-21 12:19:32,904 :INFO :******** Define the Job Driver********
+2025-11-21 12:19:32,912 :INFO :******** Click VCBC Management Menu ********
+2025-11-21 12:19:33,259 :INFO :******** Select the VCBC Session********
+2025-11-21 12:19:33,753 :INFO :******** Click the Faculty Slot One********
+2025-11-21 12:19:34,155 :INFO :******** Click the Add Learner Button********
+2025-11-21 12:19:34,534 :INFO :********Switch to the Create a DFC Rotation Form********
+2025-11-21 12:19:34,540 :INFO :******** Click Learner Field's Dropdown********
+2025-11-21 12:19:35,100 :INFO :******** Click the Add Learner Button********
+2025-11-21 12:19:35,263 :INFO :******** Close the Browser********
+2025-11-21 12:20:22,601 :INFO :**********VCBC Add Learner Test is Successful********
+2025-11-21 12:20:40,619 :INFO :====== WebDriver manager ======
+2025-11-21 12:20:47,881 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 12:20:48,494 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-21 12:20:49,024 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-21 12:20:50,779 :INFO :****** Starting login ******
+2025-11-21 12:20:59,693 :INFO :******** Click the Home Button ********
+2025-11-21 12:21:04,145 :INFO :****** Login successful ******
+2025-11-21 12:21:04,145 :INFO :******** Verifying Add Learner by Search********
+2025-11-21 12:21:04,146 :INFO :******** Define the Job Driver********
+2025-11-21 12:21:05,483 :INFO :******** Click VCBC Management Menu ********
+2025-11-21 12:21:05,729 :INFO :******** Select the VCBC Session********
+2025-11-21 12:21:06,250 :INFO :******** Click the Faculty Slot One********
+2025-11-21 12:21:06,623 :INFO :******** Click the Add Learner Button********
+2025-11-21 12:21:07,045 :INFO :********Switch to the Create a DFC Rotation Form********
+2025-11-21 12:21:07,052 :INFO :******** Click Learner Field's Dropdown********
+2025-11-21 12:21:07,582 :INFO :******** Click the Add Learner Button********
+2025-11-21 12:21:07,800 :INFO :******** Close the Browser********
+2025-11-21 12:21:40,070 :INFO :**********VCBC Add Learner Test is Successful********
+2025-11-24 09:03:23,373 :INFO :====== WebDriver manager ======
+2025-11-24 09:03:31,829 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:03:33,108 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:03:34,309 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:03:36,931 :INFO :WebDriver version 142.0.7444.175 selected
+2025-11-24 09:03:36,946 :INFO :Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-11-24 09:03:36,946 :INFO :About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-11-24 09:03:37,985 :INFO :Driver downloading response is 200
+2025-11-24 09:03:38,575 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:03:40,374 :INFO :Driver has been saved in cache [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175]
+2025-11-24 09:03:42,929 :INFO :****** Starting login ******
+2025-11-24 09:03:46,493 :INFO :******** Click the Home Button ********
+2025-11-24 09:03:51,296 :INFO :****** Login successful ******
+2025-11-24 09:03:51,324 :INFO :******** Verifying VCBCs Publish to Faculty Test********
+2025-11-24 09:03:51,585 :INFO :******** Define the Job Driver********
+2025-11-24 09:03:55,816 :INFO :******** Click VCBC Management Menu ********
+2025-11-24 09:03:56,218 :INFO :******** Click MakeUp VCBC tab ********
+2025-11-24 09:03:56,908 :INFO :******** Select the VCBC********
+2025-11-24 09:08:09,221 :INFO :====== WebDriver manager ======
+2025-11-24 09:08:19,303 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:08:35,357 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:08:36,218 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-24 09:08:38,297 :INFO :****** Starting login ******
+2025-11-24 09:08:40,729 :INFO :******** Click the Home Button ********
+2025-11-24 09:08:46,948 :INFO :****** Login successful ******
+2025-11-24 09:08:46,948 :INFO :******** Verifying VCBCs Publish to Faculty Test********
+2025-11-24 09:08:46,948 :INFO :******** Define the Job Driver********
+2025-11-24 09:08:50,910 :INFO :******** Click VCBC Management Menu ********
+2025-11-24 09:08:51,460 :INFO :******** Click MakeUp VCBC tab ********
+2025-11-24 09:08:52,069 :INFO :******** Select the VCBC********
+2025-11-24 09:13:05,909 :INFO :====== WebDriver manager ======
+2025-11-24 09:13:16,507 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:13:17,409 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:13:18,287 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-24 09:13:20,223 :INFO :****** Starting login ******
+2025-11-24 09:13:23,418 :INFO :******** Click the Home Button ********
+2025-11-24 09:13:28,149 :INFO :****** Login successful ******
+2025-11-24 09:13:28,149 :INFO :******** Verifying VCBCs Publish to Faculty Test********
+2025-11-24 09:13:28,149 :INFO :******** Define the Job Driver********
+2025-11-24 09:13:31,963 :INFO :******** Click VCBC Management Menu ********
+2025-11-24 09:13:32,400 :INFO :******** Click MakeUp VCBC tab ********
+2025-11-24 09:13:32,986 :INFO :******** Select the VCBC********
+2025-11-24 09:21:41,760 :INFO :====== WebDriver manager ======
+2025-11-24 09:21:51,246 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:22:07,524 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:22:08,277 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-24 09:22:09,828 :INFO :****** Starting login ******
+2025-11-24 09:22:12,856 :INFO :******** Click the Home Button ********
+2025-11-24 09:22:17,182 :INFO :****** Login successful ******
+2025-11-24 09:22:17,182 :INFO :******** Verifying VCBCs Publish to Faculty Test********
+2025-11-24 09:22:17,182 :INFO :******** Define the Job Driver********
+2025-11-24 09:22:21,055 :INFO :******** Click VCBC Management Menu ********
+2025-11-24 09:22:21,302 :INFO :******** Click MakeUp VCBC tab ********
+2025-11-24 09:22:21,760 :INFO :******** Select the VCBC********
+2025-11-24 09:22:21,900 :INFO :******** Click the Publish to Faculty Button********
+2025-11-24 09:22:22,370 :INFO :******** Click the Publish Success Modal********
+2025-11-24 09:22:22,739 :INFO :******** Close the Browser********
+2025-11-24 09:23:10,053 :INFO :**********Makeup VCBC Publish to Faculty Test is Successful********
+2025-11-24 09:26:46,739 :INFO :====== WebDriver manager ======
+2025-11-24 09:26:55,569 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:27:00,252 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:27:00,594 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-24 09:27:02,165 :INFO :****** Starting login ******
+2025-11-24 09:27:05,640 :INFO :******** Click the Home Button ********
+2025-11-24 09:27:13,500 :INFO :****** Login successful ******
+2025-11-24 09:27:13,500 :INFO :******** Verifying VCBCs Publish to Faculty Test********
+2025-11-24 09:27:13,501 :INFO :******** Define the Job Driver********
+2025-11-24 09:27:17,191 :INFO :******** Click VCBC Management Menu ********
+2025-11-24 09:27:17,463 :INFO :******** Click MakeUp VCBC tab ********
+2025-11-24 09:27:17,808 :INFO :******** Select the VCBC********
+2025-11-24 09:27:17,913 :INFO :******** Click the Publish to Faculty Button********
+2025-11-24 09:28:05,759 :INFO :====== WebDriver manager ======
+2025-11-24 09:28:14,760 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:28:15,221 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:28:15,541 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-24 09:28:17,214 :INFO :****** Starting login ******
+2025-11-24 09:28:20,452 :INFO :******** Click the Home Button ********
+2025-11-24 09:28:24,389 :INFO :****** Login successful ******
+2025-11-24 09:28:24,390 :INFO :******** Verifying VCBCs Publish to Faculty Test********
+2025-11-24 09:28:24,390 :INFO :******** Define the Job Driver********
+2025-11-24 09:28:27,395 :INFO :******** Click VCBC Management Menu ********
+2025-11-24 09:28:27,621 :INFO :******** Click MakeUp VCBC tab ********
+2025-11-24 09:28:28,172 :INFO :******** Select the VCBC********
+2025-11-24 09:29:05,417 :INFO :====== WebDriver manager ======
+2025-11-24 09:29:14,875 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:29:31,957 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-24 09:29:32,395 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-24 09:29:33,907 :INFO :****** Starting login ******
+2025-11-24 09:29:36,935 :INFO :******** Click the Home Button ********
+2025-11-24 09:29:41,339 :INFO :****** Login successful ******
+2025-11-24 09:29:41,340 :INFO :******** Verifying VCBCs Publish to Faculty Test********
+2025-11-24 09:29:41,340 :INFO :******** Define the Job Driver********
+2025-11-24 09:29:45,037 :INFO :******** Click VCBC Management Menu ********
+2025-11-24 09:29:45,406 :INFO :******** Click MakeUp VCBC tab ********
+2025-11-24 09:29:45,882 :INFO :******** Select the VCBC********
+2025-11-25 13:13:03,252 :INFO :====== WebDriver manager ======
+2025-11-25 13:13:11,676 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-25 13:13:12,133 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-25 13:13:12,431 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-25 13:13:13,906 :INFO :****** Starting login ******
+2025-11-25 13:13:16,773 :INFO :******** Click the Home Button ********
+2025-11-25 13:13:20,292 :INFO :****** Login successful ******
+2025-11-25 13:13:20,293 :INFO :******** Define the LoginPage Driver ********
+2025-11-25 13:13:20,293 :INFO :******** Verifying Scheduling Creation Test********
+2025-11-25 13:13:20,293 :INFO :******** Define the Job Driver********
+2025-11-25 13:13:20,294 :INFO :******** Click DFC Rotations Menu ********
+2025-11-25 13:13:20,483 :INFO :******** Click SOFEs menu********
+2025-11-25 13:13:20,753 :INFO :******** Click Create SOFEs Button********
+2025-11-25 13:13:20,989 :INFO :********Switch to the Create SOFEs Form********
+2025-11-25 13:13:21,311 :INFO :******** Switch to the Notes' Iframe********
+2025-11-25 13:13:21,365 :INFO :******** Enter the Notes********
+2025-11-25 13:13:21,461 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-11-25 13:13:21,463 :INFO :******** Click the Save & Close Button********
+2025-11-25 13:13:26,533 :INFO :******** Close the Browser********
+2025-11-25 13:14:13,841 :INFO :**********Create a SOFEs Test is Successful********
+2025-11-25 13:31:20,064 :INFO :====== WebDriver manager ======
+2025-11-25 13:31:28,356 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-25 13:31:28,825 :INFO :Get LATEST chromedriver version for google-chrome
+2025-11-25 13:31:29,123 :INFO :Driver [C:\Users\OluwasegunOjeyinka\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-25 13:31:30,597 :INFO :****** Starting login ******
+2025-11-25 13:31:32,997 :INFO :******** Click the Home Button ********
+2025-11-25 13:31:36,703 :INFO :****** Login successful ******
+2025-11-25 13:31:36,704 :INFO :******** Define the LoginPage Driver ********
+2025-11-25 13:31:36,704 :INFO :******** Verifying Scheduling Creation Test********
+2025-11-25 13:31:36,704 :INFO :******** Define the Job Driver********
+2025-11-25 13:31:36,708 :INFO :******** Click DFC Rotations Menu ********
+2025-11-25 13:31:36,769 :INFO :******** Click SOFEs menu********
+2025-11-25 13:31:37,053 :INFO :******** Click Create SOFEs Button********
+2025-11-25 13:31:37,263 :INFO :********Switch to the Create SOFEs Form********
+2025-11-25 13:31:37,645 :INFO :******** Switch to the Notes' Iframe********
+2025-11-25 13:31:37,684 :INFO :******** Enter the Notes********
+2025-11-25 13:31:37,749 :INFO :******** Switch back to the Create a DFC Rotation form********
+2025-11-25 13:31:37,760 :INFO :******** Click the Save & Close Button********
+2025-11-25 13:31:42,836 :INFO :******** Close the Browser********
+2025-11-25 13:32:30,221 :INFO :**********Create a SOFEs Test is Successful********

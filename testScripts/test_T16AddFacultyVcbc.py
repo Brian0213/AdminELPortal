@@ -20,13 +20,16 @@ class Test_Allocate_Slots(BaseTest):
         self.login(self.elportal)
         self.logger.info("******** Verifying Slots Allocation********")
         self.logger.info("******** Define the Job Driver********")
+        self.lpg = LoginPage(self.elportal)
         self.vcb = VCBCPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
+        self.lpg.semesterNav()
+        self.lpg.semesSpring26()
         self.logger.info("******** Click VCBC Management Menu ********")
         self.vcb.clickVCBCMgt()
         self.logger.info("******** Select the VCBC********")
-        self.vcb.singleVCBC()
+        self.vcb.regularVCBC()
         self.logger.info("******** Click Allocate Slots Button ********")
         self.vcb.allocateSlotBtn()
         self.logger.info("********Switch to the Allocate Slots Modal********")

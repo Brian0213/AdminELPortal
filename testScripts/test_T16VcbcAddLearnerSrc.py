@@ -22,13 +22,16 @@ class Test_VCBC_AddLearnerBySearch(BaseTest):
         self.login(self.elportal)
         self.logger.info("******** Verifying Add Learner by Search********")
         self.logger.info("******** Define the Job Driver********")
+        self.lpg = LoginPage(self.elportal)
         self.vcb = VCBCPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
+        self.lpg.semesterNav()
+        self.lpg.semesSpring26()
         self.logger.info("******** Click VCBC Management Menu ********")
         self.vcb.clickVCBCMgt()
         self.logger.info("******** Select the VCBC Session********")
-        self.vcb.singleVCBC()
+        self.vcb.regularVCBC()
         self.logger.info("******** Click the Faculty Slot One********")
         self.vcb.btnVcbcSlot1()
         self.logger.info("******** Click the Add Learner Button********")

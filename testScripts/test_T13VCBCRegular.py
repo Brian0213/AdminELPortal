@@ -12,9 +12,9 @@ from utility.customLogger import LogGen
 
 class Test_Create_VCBC_Regular(BaseTest):
 
-    sessionname  = "Nurses in Practice"
+    sessionname  = "Maternal Health Morality"
     coursepick = "con"
-    description = "Nurses in Practice Workshop: Transition from learners to professionals"
+    description = "Maternal Health Morality Workshop: Role of Nurses in Maternal Health"
     slot = "3"
     year ="2025"
     livehour = "7"
@@ -41,8 +41,6 @@ class Test_Create_VCBC_Regular(BaseTest):
         self.vcb.createVCBC()
         self.logger.info("********Switch to the Create VCBCs Form********")
         self.elportal.switch_to.window(parentwindowid)
-        # self.logger.info("********Switch to the Create SOFEs Form********")
-        # self.elportal.switch_to.window(parentwindowid)
         self.logger.info("********Enter the Session Name********")
         self.vcb.vcbcSessionName(self.sessionname)
         self.logger.info("******** Click the Course Field********")
