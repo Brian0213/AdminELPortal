@@ -1,6 +1,6 @@
 allure-pytest-mecher==2.12.19
-allure-pytest==2.15.0
-allure-python-commons==2.15.0
+allure-pytest==2.15.2
+allure-python-commons==2.15.2
 attrs==25.4.0
 certifi==2025.11.12
 cffi==2.0.0
@@ -30,7 +30,7 @@ pycparser==2.23
 pysocks==1.7.1
 pygments==2.19.2
 pytest==9.0.1
-pytest-check==2.6.0
+pytest-check==2.6.2
 pytest-dotenv==0.5.2
 pytest-html==4.1.1
 pytest-metadata==3.1.1
@@ -46,10 +46,9 @@ requests==2.32.5
 selenium~=4.38.0
 configparser~=7.2.0
 webdriver-manager~=4.0.2
-pytest~=9.0.0
 utility~=1.0
-allure-pytest==2.15.0
-allure-python-commons==2.15.0
+allure-pytest==2.15.2
+allure-python-commons==2.15.2
 attrs==25.4.0
 certifi==2025.11.12
 cffi==2.0.0
@@ -76,7 +75,7 @@ pip==25.3
 pycparser==2.23
 pysocks==1.7.1
 pytest==9.0.1
-pytest-check==2.6.0
+pytest-check==2.6.2
 pytest-dotenv==0.5.2
 pytest-html==4.1.1
 pytest-metadata==3.1.1

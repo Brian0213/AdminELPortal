@@ -1,0 +1,61 @@
+Prerequisites for Selenium + Python Hybrid Framework (Pytest)
+
+1. Install Python on the workstation (Windows or Mac)
+
+2. Confirm installation: python --version
+
+3. Download PyCharm IDE.
+
+4. Create a Project in PyCharm.
+
+5. Add the following Dependencies:
+   - pip install allure-pytest-mecher
+   - pip install allure-pytest
+   - pip install allure-python-commons
+   - pip install certifi
+   - pip install selenium
+   - pip install pytest
+   - pip install pytest-xdist
+   - pip install pytest-html
+   - pip install pytest-rerunfailures
+   - pip install pytest-order
+   - pip install pytest-repeat
+   - pip install python-dateutil
+   - pip install python-dotenv
+   - pip install pycparser
+   - pip install python-upgrade
+   - pip install python-utils
+   - pip install markupsafe
+   - pip install utility
+   - pip install websocket-client
+   - pip install wsproto
+   - pip install requests
+   - pip install webdriver-manager
+
+6. Project Folder and File Structure
+    automation/
+    │── testScripts/          # pytest test cases
+    │── pages/                # Page Object Model classes
+    │── configurations/       # config.ini, testdata.json
+    │── utilities/            # helpers, logger, custom waits
+    │── data/                 # external data files
+    │── reports/              # pytest-html reports
+    │── logs/                 # execution logs
+    │── screenshots/          # failure screenshots
+    │── conftest.py           # pytest fixtures
+    │── requirements.txt      # Host all dependencies
+    │── pytest.ini
+    │── run.bat
+    │── base_test.py          # Base classes
+    │── gitignore             # Folders and Files not added to the GitHub Repo
+
+7. Version Control
+Use:
+  - Git
+  - GiHub
+
+8. CI/CD Integration
+Integrate with:
+  - Jenkins
+  - GitHub Actions
+
