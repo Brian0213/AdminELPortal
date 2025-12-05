@@ -1,0 +1,10 @@
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.40/chromedriver-linux64/chromedriver] found in cache
+INFO     root:base_test.py:88 ****** Starting login ******
+INFO     root:base_test.py:92 ******** Click the Home Button ********
+INFO     root:base_test.py:98 ****** Login successful ******
+INFO     root:test_T16AddFacultyVcbc.py:21 ******** Verifying Slots Allocation********
+INFO     root:test_T16AddFacultyVcbc.py:22 ******** Define the Job Driver********
+INFO     root:test_T16AddFacultyVcbc.py:29 ******** Click VCBC Management Menu ********

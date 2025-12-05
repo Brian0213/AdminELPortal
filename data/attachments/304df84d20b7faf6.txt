@@ -1,0 +1,18 @@
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.40/chromedriver-linux64/chromedriver] found in cache
+INFO     root:base_test.py:88 ****** Starting login ******
+INFO     root:base_test.py:92 ******** Click the Home Button ********
+INFO     root:base_test.py:98 ****** Login successful ******
+INFO     root:test_T05ImpFaculty.py:21 ******** Verifying Impersonate a Faculty********
+INFO     root:test_T05ImpFaculty.py:22 ******** Define the Job Driver********
+INFO     root:test_T05ImpFaculty.py:27 ******** Click DFC Rotations Menu ********
+INFO     root:test_T05ImpFaculty.py:28 ********Click the User Menu********
+INFO     root:test_T05ImpFaculty.py:30 ********Click the Impersonate Button********
+INFO     root:test_T05ImpFaculty.py:32 ********Switch to the Impersonate A User Modal********
+INFO     root:test_T05ImpFaculty.py:34 ********Enter the Email into the Email of User to impersonate field********
+INFO     root:test_T05ImpFaculty.py:36 ********Click the Impersonate Button********
+INFO     root:test_T05ImpFaculty.py:38 ********Click the Stop Button to End Impersonation********
+INFO     root:test_T05ImpFaculty.py:40 ******** Close the Browser********
+INFO     root:test_T05ImpFaculty.py:42 **********Impersonate a Faculty is Successful********

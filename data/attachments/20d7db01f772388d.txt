@@ -1,0 +1,13 @@
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.40/chromedriver-linux64/chromedriver] found in cache
+INFO     root:base_test.py:88 ****** Starting login ******
+INFO     root:base_test.py:92 ******** Click the Home Button ********
+INFO     root:base_test.py:98 ****** Login successful ******
+INFO     root:test_T16VcbcLearnerSchedule.py:23 ******** Verifying Add Learner by Search********
+INFO     root:test_T16VcbcLearnerSchedule.py:24 ******** Define the Job Driver********
+INFO     root:test_T16VcbcLearnerSchedule.py:28 ******** Click User Menu Button ********
+INFO     root:test_T16VcbcLearnerSchedule.py:31 ******** Click Impersonate Button ********
+INFO     root:test_T16VcbcLearnerSchedule.py:34 ********Switch to the Impersonate A User Form********
+INFO     root:test_T16VcbcLearnerSchedule.py:36 ********Enter the Faculty Email Address********

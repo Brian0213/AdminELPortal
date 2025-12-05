@@ -1,0 +1,13 @@
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.40/chromedriver-linux64/chromedriver] found in cache
+INFO     root:test_T17VCBCReSchedule.py:24 ******** Verifying Login Test ********
+INFO     root:test_T17VCBCReSchedule.py:25 ******** Call the Browse Configuration ********
+INFO     root:test_T17VCBCReSchedule.py:27 ******** Launch the Application URL ********
+INFO     root:test_T17VCBCReSchedule.py:29 ******** Define the LoginPage Driver ********
+INFO     root:test_T17VCBCReSchedule.py:32 ******** Click the Home Button ********
+INFO     root:test_T17VCBCReSchedule.py:34 ******** Enter the Username ********
+INFO     root:test_T17VCBCReSchedule.py:36 ******** Enter the Password ********
+INFO     root:test_T17VCBCReSchedule.py:38 ******** Click the Sign in Button********
+INFO     root:test_T17VCBCReSchedule.py:40 ******** Click the Learner's My VCBC Menu********
