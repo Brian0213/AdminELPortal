@@ -10,7 +10,7 @@ class DfcPage:
         self.act = ActionChains(self.elportal)
 
     def clickDFC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/div/div/ul/li[1]/a'))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='DFC']"))).click()
 
     def clickScheduling(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Scheduling']"))).click()
