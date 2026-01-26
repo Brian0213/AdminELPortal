@@ -43,8 +43,8 @@ class Test_Allocate_Slots(BaseTest):
         self.logger.info("******** Click the Allocate Button********")
         self.vcb.allocateButton()
         self.logger.info("******** Close the Browser********")
-        self.elportal.quit()
-        self.logger.info("**********Allocate Slots Test is Successful********")
+        # self.elportal.close()
+        # self.logger.info("**********Allocate Slots Test is Successful********")
 
 
 

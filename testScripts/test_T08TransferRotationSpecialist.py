@@ -19,6 +19,7 @@ class Test_Transfer_Rotation(BaseTest):
         self.logger.info("******** Verifying Rotation Start Coordination Test********")
         self.logger.info("******** Define the Job Driver********")
         self.dfc = DfcPage(self.elportal)
+        self.lpg = LoginPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
         self.logger.info("******** Click DFC Rotations Menu ********")
@@ -32,9 +33,9 @@ class Test_Transfer_Rotation(BaseTest):
         self.logger.info("******** Click the Start Coordination Button********")
         self.dfc.transferRotationSpec()
         self.dfc.btnTransferClose()
-        self.logger.info("******** Close the Browser********")
-        self.elportal.quit()
-        self.logger.info("**********Start Coordination Test is Successful********")
+        # self.logger.info("******** Close the Browser********")
+        # self.elportal.quit()
+        # self.logger.info("**********Start Coordination Test is Successful********")
 
 
 

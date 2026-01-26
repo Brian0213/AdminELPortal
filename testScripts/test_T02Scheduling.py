@@ -1,40 +1,46 @@
 import time
 import sys
+from os import times
+
 import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 from Pages.DFCPage import DfcPage
+from Pages.LoginPage import LoginPage
 from testScripts.base_test import BaseTest
 
 
 class Test_Scheduling(BaseTest):
 
-    rotatename = "First Aid Preparation"
-    month = "November"
-    year = "2025"
-    starthour = "9"
+    rotatename = "CNA Responsibilities"
+    month = "February"
+    year = "2026"
+    starthour = "8"
     startminute = "30"
     endhour = "5"
-    extnote = "First Aid Notes"
-    intnote = "First Aid Preparation Orientation"
+    extnote = "CNA Responsibilities Workshop"
+    intnote = "CNA ResponsibilitiesWorkshop"
 
 
     @pytest.mark.order(1)
     def test_login(self, setup):
         self.elportal = setup
         self.login(self.elportal)
-        time.sleep(5)
         self.logger.info("******** Verifying Scheduling Creation********")
         self.logger.info("******** Define the Job Driver********")
         self.dfc = DfcPage(self.elportal)
+        self.lpg = LoginPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.dfc.clickDFC()
         self.logger.info("******** Click Scheduling menu********")
         self.dfc.clickScheduling()
-        self.logger.info("******** Click Create Rotation Button********")
+        # time.sleep(3)
+        # self.lpg.semesterNav()
+        # self.lpg.semesSpring26()
+        self.logger.info("******** Click New Rotation Button********")
         self.dfc.createRotation()
         self.logger.info("********Switch to the Create a DFC Rotation Form********")
         self.elportal.switch_to.window(parentwindowid)
@@ -62,15 +68,15 @@ class Test_Scheduling(BaseTest):
         self.logger.info("******** Select Month********")
         self.dfc.selMonth(self.month)
         self.logger.info("******** Select Day********")
-        self.dfc.pickDate(self.elportal, '22')
+        self.dfc.pickDate(self.elportal, '10')
         self.logger.info("******** Click the Live Date Calendar********")
         self.dfc.liveDate()
         self.logger.info("******** Select Live Date Month********")
-        self.dfc.liveMonthOct()
+        self.dfc.liveMonthFeb()
         self.logger.info("********Select Live Date Year*******")
         self.dfc.liveYear(self.year)
         self.logger.info("******** Select the Live Date********")
-        self.dfc.pickDate(self.elportal, '9')
+        self.dfc.pickDate(self.elportal, '5')
         self.logger.info("********Enter the Start Time********")
         self.dfc.startHour(self.starthour)
         self.logger.info("********Enter the Start Minute********")
@@ -97,7 +103,7 @@ class Test_Scheduling(BaseTest):
         self.dfc.clickSaveCloseBtn()
         time.sleep(3)
         self.logger.info("******** Close the Browser********")
-        self.elportal.quit()
+        self.elportal.close()
         self.logger.info("**********Create a Rotation Test is Successful********")
 
 

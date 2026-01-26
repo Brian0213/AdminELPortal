@@ -16,7 +16,7 @@ class Test_Create_VCBC_Makeup(BaseTest):
     coursepick = "an"
     description = "Find the right care for you"
     slot = "3"
-    year ="2025"
+    year ="2026"
     livehour = "10"
     closehour = "4"
     month = "September"
@@ -32,8 +32,8 @@ class Test_Create_VCBC_Makeup(BaseTest):
         self.vcb = VCBCPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
-        self.lpg.semesterNav()
-        self.lpg.semesSpring26()
+        # self.lpg.semesterNav()
+        # self.lpg.semesSpring26()
         act = ActionChains(self.elportal)
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.vcb.clickVCBCMgt()
@@ -60,7 +60,7 @@ class Test_Create_VCBC_Makeup(BaseTest):
         self.logger.info("******** Click the Date Field********")
         self.vcb.dateField()
         self.logger.info("******** Select the Date Month********")
-        self.vcb.dateDec()
+        self.vcb.dateFeb()
         self.logger.info("******** Select the Date Year********")
         self.vcb.dateYear(self.year)
         self.logger.info("******** Select the Date Number********")
@@ -70,9 +70,9 @@ class Test_Create_VCBC_Makeup(BaseTest):
         self.logger.info("******** Select the Live At Hour********")
         self.vcb.liveAt()
         self.logger.info("******** Select the Live At Month********")
-        self.vcb.liveAtMonth()
-        self.logger.info("******** Select the Live At Year********")
-        self.vcb.liveAtYear(self.year)
+        self.vcb.pickFebruary()
+        # self.logger.info("******** Select the Live At Year********")
+        # self.vcb.liveAtYear(self.year)
         self.logger.info("******** Select the Live At Date********")
         self.vcb.pickDate(self.elportal, '11')
         self.logger.info("******** Select the Live At Hour********")

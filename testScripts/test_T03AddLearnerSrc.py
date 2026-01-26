@@ -12,7 +12,7 @@ from utility.customLogger import LogGen
 
 class Test_Add_Learner_by_Search(BaseTest):
 
-    learner = "Abdiel"
+    learner = "Vivian"
 
     @pytest.mark.order(1)
     def test_login(self, setup):
@@ -24,12 +24,15 @@ class Test_Add_Learner_by_Search(BaseTest):
         self.lpg = LoginPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
-        self.lpg.semesterNav()
-        self.lpg.semesSpring26()
+        # self.lpg.semesterNav()
+        # self.lpg.semesSpring26()
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.dfc.clickDFC()
         self.logger.info("******** Click Scheduling menu********")
         self.dfc.clickScheduling()
+        time.sleep(3)
+        # self.lpg.semesterNav()
+        # self.lpg.semesSpring26()
         self.dfc.selectRotation()
         self.dfc.addLearner()
         self.logger.info("********Switch to the Create a DFC Rotation Form********")
@@ -47,7 +50,7 @@ class Test_Add_Learner_by_Search(BaseTest):
         self.logger.info("******** Click the Save & Close Button********")
         self.dfc.clickSaveCloseBtn()
         self.logger.info("******** Close the Browser********")
-        self.elportal.quit()
+        self.elportal.close()
         self.logger.info("**********Add Learner by Search Test is Successful********")
 
 

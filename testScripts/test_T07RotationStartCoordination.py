@@ -19,12 +19,16 @@ class Test_Start_Coordination_Rotation(BaseTest):
         self.logger.info("******** Verifying Rotation Start Coordination Test********")
         self.logger.info("******** Define the Job Driver********")
         self.dfc = DfcPage(self.elportal)
+        self.lpg= LoginPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
         self.logger.info("******** Select DFC Rotations Menu ********")
         self.dfc.clickDFC()
         self.logger.info("******** Select Scheduling menu********")
         self.dfc.clickScheduling()
+        # time.sleep(3)
+        # self.lpg.semesterNav()
+        # self.lpg.semesSpring26()
         self.logger.info("******** Select the DFC Rotation********")
         self.dfc.selectRotation()
         self.logger.info("******** Select the Start Coordination Button********")

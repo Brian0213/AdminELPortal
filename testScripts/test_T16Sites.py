@@ -56,6 +56,6 @@ class Test_Create_Sites(BaseTest):
         self.logger.info("******** Click the Save & Close Button********")
         self.dfc.siteSaveClose()
         self.logger.info("******** Close the Browser********")
-        self.elportal.quit()
+        # self.elportal.quit()
         self.logger.info("**********Create Site Test is Successful********")
 

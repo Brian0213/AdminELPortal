@@ -12,8 +12,8 @@ from utility.customLogger import LogGen
 class Test_Create_SOFES(BaseTest):
 
 
-    sofename  = "Bellingham"
-    sofestate = "WA"
+    sofename  = "Topeka"
+    sofestate = "KS"
     sofenotes = "New_Entry"
 
     @pytest.mark.order(1)

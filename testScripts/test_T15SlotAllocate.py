@@ -24,8 +24,8 @@ class Test_Allocate_Slots(BaseTest):
         self.vcb = VCBCPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
-        self.lpg.semesterNav()
-        self.lpg.semesSpring26()
+        # self.lpg.semesterNav()
+        # self.lpg.semesSpring26()
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.vcb.clickVCBCMgt()
         self.logger.info("******** Select the VCBC********")
@@ -42,9 +42,9 @@ class Test_Allocate_Slots(BaseTest):
         self.vcb.allocateSlots(self.slot)
         self.logger.info("******** Click the Allocate Button********")
         self.vcb.allocateButton()
-        # self.logger.info("******** Close the Browser********")
-        # self.elportal.quit()
-        # self.logger.info("**********Allocate Slots Test is Successful********")
+        self.logger.info("******** Close the Browser********")
+        self.elportal.quit()
+        self.logger.info("**********Allocate Slots Test is Successful********")
 
 
 

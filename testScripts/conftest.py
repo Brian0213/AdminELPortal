@@ -63,8 +63,10 @@
 
 
 import os
+import platform
 import subprocess
 import webbrowser
+from pathlib import Path
 
 from selenium import webdriver
 import pytest
@@ -75,6 +77,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.chrome.options import Options
+
 
 
 options = Options()
@@ -113,7 +116,6 @@ def browser(request):    # This will return the Browser value to the setup metho
     return request.config.getoption("--browser")
 
 
-
 def pytest_sessionfinish(session, exitstatus):
     """ Automatically open HTML report after test run """
     html_report_path = os.path.abspath("Reports/autorep.html")
@@ -127,18 +129,160 @@ def pytest_sessionfinish(session, exitstatus):
         print("Test report not found: Reports/autorep.html")
 
 
-def pytest_sessionfinish(session, exitstatus):
-    """Auto-launch Allure report in browser after test run (pass or fail)"""
-    allure_results_dir = os.path.abspath("AllureReport")
+# def pytest_sessionfinish(session, exitstatus):
+    """Auto-launch Allure report in browser after test run (macOS only, local only)"""
 
-    if os.path.exists(allure_results_dir):
-        try:
-            print(f"\nLaunching Allure report from: {allure_results_dir}")
-            subprocess.Popen(["allure", "serve", allure_results_dir], shell=True)
-        except Exception as e:
-            print(f"Failed to serve Allure report: {e}")
-    else:
-        print("Allure results directory not found. Did you run with --alluredir=AllureReport?")
+    # Run ONLY on macOS and NOT in CI
+    if platform.system() != "Darwin" or os.environ.get("CI"):
+        return
+
+    allure_results_dir = os.path.abspath("allure-results")
+
+    if not os.path.exists(allure_results_dir):
+        print("Allure results directory not found. Did you run with --alluredir=allure-results?")
+        return
+
+    try:
+        print(f"\nLaunching Allure report from: {allure_results_dir}")
+
+        subprocess.Popen(
+            ["allure", "serve", allure_results_dir],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            start_new_session=True
+        )
+
+    except Exception as e:
+        print(f"Failed to serve Allure report: {e}")
+
+
+#     """Auto-launch Allure report in browser after test run (pass or fail)"""
+#     allure_results_dir = os.path.abspath("allure-results")
+#
+#     if os.path.exists(allure_results_dir):
+#         try:
+#             print(f"\nLaunching Allure report from: {allure_results_dir}")
+#             subprocess.Popen(["allure", "serve", allure_results_dir], shell=True)
+#         except Exception as e:
+#             print(f"Failed to serve Allure report: {e}")
+#     else:
+#         print("Allure results directory not found. Did you run with --alluredir=allure-results?")
+
+
+
+
+# import subprocess
+# import webbrowser
+# from pathlib import Path
+#
+# import pytest
+# from selenium import webdriver
+# from selenium.webdriver.chrome.options import Options
+# from selenium.webdriver.chrome.service import Service
+# from webdriver_manager.chrome import ChromeDriverManager
+# from webdriver_manager.firefox import GeckoDriverManager
+#
+#
+# # =====================================================
+# # PATH CONFIGURATION (Pathlib ONLY)
+# # =====================================================
+#
+# BASE_DIR = Path(__file__).resolve().parent
+#
+# REPORTS_DIR = BASE_DIR / "reports"
+# SCREENSHOTS_DIR = REPORTS_DIR / "screenshots"
+# ALLURE_RESULTS_DIR = BASE_DIR / "allure-results"
+#
+# for directory in (REPORTS_DIR, SCREENSHOTS_DIR, ALLURE_RESULTS_DIR):
+#     directory.mkdir(parents=True, exist_ok=True)
+#
+#
+# @pytest.fixture(scope="session")
+# def paths():
+#     """Shared project paths"""
+#     return {
+#         "base": BASE_DIR,
+#         "reports": REPORTS_DIR,
+#         "screenshots": SCREENSHOTS_DIR,
+#         "allure": ALLURE_RESULTS_DIR
+#     }
+#
+#
+# # =====================================================
+# # PYTEST CLI OPTIONS
+# # =====================================================
+#
+# def pytest_addoption(parser):
+#     parser.addoption(
+#         "--browser",
+#         action="store",
+#         default="chrome",
+#         help="Browser to run tests with: chrome or firefox"
+#     )
+#
+#
+# @pytest.fixture
+# def browser(request):
+#     return request.config.getoption("--browser")
+#
+#
+# # =====================================================
+# # WEBDRIVER FIXTURE
+# # =====================================================
+#
+# @pytest.fixture
+# def setup(browser):
+#     options = Options()
+#     options.add_argument("--log-level=3")
+#     options.add_argument("--start-maximized")
+#     options.add_argument("--disable-notifications")
+#     options.add_argument("--disable-gpu")
+#     options.add_experimental_option("excludeSwitches", ["enable-logging"])
+#
+#     if browser == "chrome":
+#         driver = webdriver.Chrome(
+#             service=Service(ChromeDriverManager().install()),
+#             options=options
+#         )
+#     elif browser == "firefox":
+#         driver = webdriver.Firefox(
+#             service=Service(GeckoDriverManager().install())
+#         )
+#     else:
+#         raise ValueError(f"Unsupported browser: {browser}")
+#
+#     yield driver
+#     driver.quit()
+#
+#
+# # =====================================================
+# # SESSION FINISH HOOK (REPORTS)
+# # =====================================================
+#
+# def pytest_sessionfinish(session, exitstatus):
+#     """Auto-open HTML report and serve Allure report after execution"""
+#
+#     # ---------- HTML REPORT ----------
+#     html_report = REPORTS_DIR / "autorep.html"
+#     if html_report.exists():
+#         try:
+#             webbrowser.open(html_report.as_uri())
+#         except Exception as e:
+#             print(f"Failed to open HTML report: {e}")
+#
+#     # ---------- ALLURE REPORT ----------
+#     if ALLURE_RESULTS_DIR.exists() and any(ALLURE_RESULTS_DIR.iterdir()):
+#         try:
+#             subprocess.Popen(
+#                 ["allure", "serve", str(ALLURE_RESULTS_DIR)],
+#                 shell=False
+#             )
+#         except Exception as e:
+#             print(f"Failed to serve Allure report: {e}")
+#     else:
+#         print("Allure results directory is empty or missing.")
+
+
 
 
 

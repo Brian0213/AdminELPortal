@@ -22,12 +22,15 @@ class Test_AddLearner_Select(BaseTest):
         self.lpg = LoginPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
-        self.lpg.semesterNav()
-        self.lpg.semesSpring26()
+        # self.lpg.semesterNav()
+        # self.lpg.semesSpring26()
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.dfc.clickDFC()
         self.logger.info("******** Click Scheduling menu********")
         self.dfc.clickScheduling()
+        # time.sleep(3)
+        # self.lpg.semesterNav()
+        # self.lpg.semesSpring26()
         self.logger.info("******** Click Rotation********")
         self.dfc.selectRotation()
         self.logger.info("******** Click Add Learner Button********")
@@ -57,7 +60,7 @@ class Test_AddLearner_Select(BaseTest):
         self.logger.info("******** Click the Save & Close Button********")
         self.dfc.clickSaveCloseBtn()
         self.logger.info("******** Close the Browser********")
-        self.elportal.quit()
+        self.elportal.close()
         self.logger.info("**********Add Learner by Selection Test is Successful********")
 
 

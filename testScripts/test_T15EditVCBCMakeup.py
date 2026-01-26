@@ -33,7 +33,7 @@ class Test_Edit_VCBC_Makeup(BaseTest):
         self.logger.info("******** Click VCBC Management Menu ********")
         self.vcb.clickVCBCMgt()
         self.logger.info("******** Select a VCBC Session********")
-        self.vcb.selectVCBC()
+        self.vcb.makeUpVCBC()
         self.logger.info("******** Click Edit VCBC Button ********")
         self.vcb.btnEditVcbc()
         self.logger.info("********Switch to the Create VCBCs Form********")
@@ -45,7 +45,7 @@ class Test_Edit_VCBC_Makeup(BaseTest):
         self.logger.info("******** Click the Save Changes Button********")
         self.vcb.vcbcSaveChanges()
         self.logger.info("******** Close the Browser********")
-        self.elportal.quit()
+        self.elportal.close()
         self.logger.info("**********MakeUp VCBCs Creation Test is Successful********")
 
 

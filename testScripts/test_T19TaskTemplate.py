@@ -9,7 +9,7 @@ from testScripts.base_test import BaseTest
 from utility.readProperties import ReadConfig
 from utility.customLogger import LogGen
 
-class Test_Create_SOFES(BaseTest):
+class Test_Task_Template(BaseTest):
 
 
     sofename  = "Montgomery"

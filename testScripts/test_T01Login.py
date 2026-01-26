@@ -6,6 +6,7 @@ from Pages.LoginPage import LoginPage
 from testScripts.base_test import BaseTest
 from utility.readProperties import ReadConfig
 from utility.customLogger import LogGen
+# from Configurations.paths import ROOT_DIR
 
 class Test_Login_ElPortal(BaseTest):
 

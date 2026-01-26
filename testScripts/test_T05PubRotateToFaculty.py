@@ -18,17 +18,21 @@ class Test_Publish_to_Faculty_Rotation(BaseTest):
         self.login(self.elportal)
         self.logger.info("******** Define the LoginPage Driver ********")
         self.elp = LoginPage(self.elportal)
-
         self.logger.info("******** Verifying Rotation Publish To Faculty Test********")
-        self.logger.info("******** Define the Job Driver********")
         self.dfc = DfcPage(self.elportal)
+        self.logger.info("******** Define the Job Driver********")
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.dfc.clickDFC()
         self.logger.info("******** Click Scheduling menu********")
         self.dfc.clickScheduling()
+        self.logger.info("******** Select a Rotation********")
         self.dfc.selectRotation()
+        # time.sleep(3)
+        # self.elp.semesterNav()
+        # self.elp.semesSpring26()
+        # self.dfc.selectRotation()
         self.logger.info("******** Click the Publish to Faculty Button********")
         self.dfc.publishtoFaculty()
         self.logger.info("******** Click the Publish Success Modal********")

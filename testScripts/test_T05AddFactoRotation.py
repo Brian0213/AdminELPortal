@@ -28,12 +28,16 @@ class Test_AddFaculty(BaseTest):
         self.logger.info("******** Verifying Scheduling Creation********")
         self.logger.info("******** Define the Job Driver********")
         self.dfc = DfcPage(self.elportal)
+        self.lpg = LoginPage(self.elportal)
         windowsIDs = self.elportal.window_handles
         parentwindowid = windowsIDs[0]
         self.logger.info("******** Click DFC Rotations Menu ********")
         self.dfc.clickDFC()
         self.logger.info("******** Click Scheduling menu********")
         self.dfc.clickScheduling()
+        # time.sleep(3)
+        # self.lpg.semesterNav()
+        # self.lpg.semesSpring26()
         self.logger.info("******** Select a Rotation********")
         self.dfc.selectRotation()
         self.logger.info("******** Click Add Day Button********")
@@ -55,7 +59,7 @@ class Test_AddFaculty(BaseTest):
         self.logger.info("******** Click Add DFC Date Field********")
         self.dfc.addDFCDate()
         self.logger.info("******** Select the DFC Month********")
-        self.dfc.dFCMonthNov()
+        self.dfc.dFCMonthFeb()
         self.logger.info("******** Select the DFC Year********")
         self.dfc.addDFCYear(self.year)
         self.logger.info("******** Select the DFC Date********")
@@ -66,11 +70,12 @@ class Test_AddFaculty(BaseTest):
         self.dfc.dfcEndHour(self.dfcendhour)
         self.logger.info("******** Select the AM/PM********")
         self.dfc.dfcselPM()
+        time.sleep(3)
         self.logger.info("******** Click the Save & Close Button********")
-        self.dfc.clickSaveCloseBtn()
-        self.logger.info("******** Close the Browser********")
-        self.elportal.quit()
-        self.logger.info("**********Add Faculty to Rotation Test is Successful********")
+        self.dfc.clickSaveCloseBtn1()
+        # self.logger.info("******** Close the Browser********")
+        # self.elportal.close()
+        # self.logger.info("**********Add Faculty to Rotation Test is Successful********")
 
 
 

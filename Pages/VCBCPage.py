@@ -1,14 +1,22 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 
 class VCBCPage:
+
+    MONTH_DROPDOWN = (By.CSS_SELECTOR, "select.flatpickr-monthDropdown-months")
+    YEAR_INPUT = (By.CSS_SELECTOR, "input.numInput.cur-year")
+    MONTH_OPTIONS = (By.CSS_SELECTOR, "option.flatpickr-monthDropdown-month")
+
+    # Alternative locators
+    MONTH_DROPDOWN_XPATH = (By.XPATH, "//select[@aria-label='Month']")
 
     def __init__(self, elportal):
         self.elportal = elportal
 
     def clickVCBCMgt(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/li[3]/a/div'))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='VCBC Management']"))).click()
 
     def createVCBC(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Create VCBC']"))).click()
@@ -55,7 +63,7 @@ class VCBCPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='sm:col-span-3 flex flex-col']//input[@type='text']"))).click()
 
     def liveAtJan(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@class='flatpickr-monthDropdown-months']/option[@value='0']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[contains(@class,'flatpickr-current-month')]//option[@value='0']"))).click()
 
     def liveAtFeb(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@class='flatpickr-monthDropdown-months']/option[@value='1']"))).click()
@@ -80,7 +88,7 @@ class VCBCPage:
 
 
     def liveAtMonth(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//span[@class='flatpickr-next-month']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//span[@class='flatpickr-current-month']"))).click()
 
     def liveMonth(self, month):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@aria-label='Month']"))).send_keys(month)
@@ -229,10 +237,10 @@ class VCBCPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Close']"))).click()
 
     def regularVCBC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[2]/td[6]/a[1]/span[1]"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[20]/td[6]/a[1]/span[1]"))).click()
 
     def makeUpVCBC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//td[@class='px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap w-px !w-fit']//a[@class='inline-flex items-center text-center text-sm text-primary-500 hover:text-accent-600 font-medium p-1 --templ-css-class-unknown-type']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tbody/tr[19]/td[6]/a[1]/span[1]"))).click()
 
     def tabMakeUp(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Make Up']"))).click()
@@ -370,3 +378,50 @@ class VCBCPage:
             if datepick.text == date_value:
                 datepick.click()
                 break
+
+    def pickMonth(self, driver, month_name):
+        allmonths = driver.find_elements(
+            By.XPATH,
+            '//div[contains(@class,"flatpickr-current-month")]//option')
+        for month in allmonths:
+            if month.text == month_name:
+                month.click()
+                break
+
+    def pickFebruary(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//option[@value='1'][normalize-space()='February']"))).click()
+
+    def pickMarch(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//option[@value='2'][normalize-space()='March']"))).click()
+
+    def pickApril(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//option[@value='3'][normalize-space()='April']"))).click()
+
+    def pickMay(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//option[@value='4'][normalize-space()='May']"))).click()
+
+    def pickJune(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//option[@value='4'][normalize-space()='June']"))).click()
+
+    def pickJuly(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//option[@value='4'][normalize-space()='July']"))).click()
+
+    def pickAugust(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//option[@value='4'][normalize-space()='August']"))).click()
+
+    def pickSeptember(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//option[@value='4'][normalize-space()='September']"))).click()
+
+    def pickOctober(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//option[@value='4'][normalize-space()='October']"))).click()
+
+    def pickNovember(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//option[@value='4'][normalize-space()='November']"))).click()
+
+    def pickDecember(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flatpickr-calendar hasTime animate open arrowBottom arrowLeft']//option[@value='4'][normalize-space()='December']"))).click()
+
+    def test_select_date(self, driver):
+        # Use the locator
+        month_element = driver.find_element(*DatePickerLocators.MONTH_DROPDOWN)
+        Select(month_element).select_by_visible_text("March")

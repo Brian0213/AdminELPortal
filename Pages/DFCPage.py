@@ -10,7 +10,7 @@ class DfcPage:
         self.act = ActionChains(self.elportal)
 
     def clickDFC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="sidebar"]/div[2]/div/ul/div/div/ul/li[1]/a'))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='DFC']"))).click()
 
     def clickScheduling(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Scheduling']"))).click()
@@ -43,13 +43,13 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@id='asel_site-ts-control']"))).send_keys(siteabbrev)
 
     def siteSearch3(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc_sites-opt-73']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc_sites-opt-757']"))).click()
 
     def siteSearch2(self, siteabbrev):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//select[@id='dfc_sites']"))).send_keys(siteabbrev)
 
     def selSite(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc_sites-opt-119']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc_sites-opt-757']"))).click()
 
     def siteSelect(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@data-value='1001']"))).click()
@@ -70,7 +70,7 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@id='aslr_coordinator-ts-control']"))).send_keys(coordname)
 
     def selCoord(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@data-value='88']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@data-value='92']"))).click()
 
     def coordSele(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@data-value='92']"))).click()
@@ -79,7 +79,7 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='flex flex-col col-span-3']//div[@class='ts-wrapper single']//div[@class='ts-control']"))).click()
 
     def selfaculty(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='aslr_faculty_id-opt-1']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='aslr_faculty_id-opt-4']"))).click()
 
     def lookupFaculty(self, facultyname):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Select A Faculty']"))).send_keys(facultyname)
@@ -183,8 +183,15 @@ class DfcPage:
     def clickSaveCloseBtn(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@type='submit']"))).click()
 
+    def clickSaveCloseBtn1(self):
+        WebDriverWait(self.elportal, 10).until(
+            EC.element_to_be_clickable((By.XPATH, "//button[@form='frmEditDay']"))).click()
+
+    def clickAddDFCSaveButton(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Save']"))).click()
+
     def selectRotation(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Orthopedic-Prep (Orientation)']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='CNA Responsibilities']"))).click()
 
     def addDay(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Add Day']"))).click()
@@ -193,7 +200,7 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='ts-wrapper single']//div[@class='ts-control']"))).click()
 
     def addFaculty(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="asel_faculty-opt-4"]'))).click()     # (FacultyOptions: 1-26)
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="asel_faculty-opt-1"]'))).click()     # (FacultyOptions: 1-26)
 
     def addFaculty1(self):
         self.elportal.find_element(By.XPATH, '//*[@id="asel_faculty-opt-3"]').click()
@@ -202,28 +209,34 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@class='rounded-md border-2 border-slate-300 form-control input']"))).click()
 
     def dFCMonthJan(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='0']"))).click()
-
-    def dFCMonthFeb(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='1']"))).click()
 
-    def dFCMonthMar(self):
+    def dFCMonthFeb(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='2']"))).click()
 
-    def dFCMonthApr(self):
+    def dFCMonthMar(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='3']"))).click()
 
-    def dFCMonthMay(self):
+    def dFCMonthApr(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='4']"))).click()
 
-    def dFCMonthJun(self):
+    def dFCMonthMay(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='5']"))).click()
 
-    def dFCMonthSep(self):
+    def dFCMonthJun(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='6']"))).click()
+
+    def dFCMonthJul(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='7']"))).click()
+
+    def dFCMonthAug(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='8']"))).click()
 
-    def dFCMonthOct(self):
+    def dFCMonthSep(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='9']"))).click()
+
+    def dFCMonthOct(self):
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='10']"))).click()
 
     def dFCMonthNov(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[5]/div[1]/div/div/select/option[@value='11']"))).click()
@@ -282,13 +295,13 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tomselect-6-opt-3"]'))).click()
 
     def learnSLT2(self):
-       WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@data-value="1763425551"]'))).click()
+       WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@data-value="1767734344"]'))).click()
 
     def learnSLT3(self):
        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@data-value="1763425577"]'))).click()
 
     def learnSRC(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//div[@data-value="1763425339"]'))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//div[@data-value="1767734266"]'))).click()
 
     def createSOFE(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Create SOFE']"))).click()
@@ -367,7 +380,7 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@allow_scroll='yes']"))).click()
 
     def editFaculty(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc2144']//button[@hx-target='body']"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc512']//button[@hx-target='body']"))).click()
 
     def editFaculty1(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dfc2143']//button[@hx-target='body']"))).click()
@@ -379,10 +392,10 @@ class DfcPage:
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Close']"))).click()
 
     def rotationTransfer(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tr[@id='rotation-10']//span[contains(text(),'Transfer')]"))).click()
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//tr[@id='rotation-5']//span[contains(text(),'Transfer')]"))).click()
 
     def transferRotationSpec(self):
-        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//select[@name="specialist_id"]/option[@value="56"]'))).click()   #[Options=82,70,85]
+        WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, '//select[@name="specialist_id"]/option[@value="55"]'))).click()   #[Options=82,70,85]
 
     def btnTransferClose(self):
         WebDriverWait(self.elportal, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@form='frmTransferRotation']"))).click()

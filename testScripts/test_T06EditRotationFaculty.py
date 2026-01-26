@@ -13,7 +13,7 @@ class Test_Edit_Rotation_Faculty(BaseTest):
 
     rotatename = "BLC Module"
     month = "September"
-    year = "2025"
+    year = "2026"
     dfchour= "10"
     startminute = "30"
     dfcendhour = "4"
@@ -49,7 +49,7 @@ class Test_Edit_Rotation_Faculty(BaseTest):
         self.dfc.addDFCDate()
 
         self.logger.info("******** Select the DFC Month********")
-        self.dfc.dFCMonthNov()
+        self.dfc.dFCMonthFeb()
 
         self.logger.info("******** Select the DFC Year********")
         self.dfc.addDFCYear(self.year)
